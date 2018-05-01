@@ -14,17 +14,6 @@ Email:   rs2715@stern.nyu.edu
      - http://wimlds.org/
 * Organizer of [NYC PyLadies meetup group](https://www.meetup.com/NYC-PyLadies/)
 
-#### Event
-Git Workshop for Datanauts, Mar 7, 2018
-
-
-#### Host
-* openNASA: https://open.nasa.gov/blog/
-* Datanauts: https://open.nasa.gov/explore/datanauts/
-
-#### Helpers
-N/A
-
 ---
 ### Installation
 This workshop covers Git CLI (command line interface).  [It does not use Git GUI.]  
