@@ -6,7 +6,7 @@
 - ssh = secure shell
 - (Note:  Windows users should have Ubuntu installed.)
 
-### Step 1a:  We begin by going to our home directory
+### Step 1a:  We begin by going to our home directory (in terminal)
 ```bash
 cd ~
 pwd
