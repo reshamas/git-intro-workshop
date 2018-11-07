@@ -113,7 +113,7 @@ git config --list
 ```
 
 ---
-### Step 5: Create Your Working Directory for Git Repos
+## Step 5: Create Your Working Directory for Git Repos
 Navigate to your home directory where you want to create a directory for the git work.  
 For me, it is:  `/Users/reshamashaikh`  
 <kbd> cd /Users/reshamashaikh </kbd>  
