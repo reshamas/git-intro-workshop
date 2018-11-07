@@ -24,7 +24,8 @@
 **Note:** Ensure commit messages are meaningful.
   
 
-## Step 3:  copy URL for cloning
+## Step 3: Let's "clone" (or copy) the repo from GitHub to our terminal
+### copy URL for cloning
 
 Click on the green button for your forked GitHub repo, and ensure it is showing the url for **Clone with HTTPS**  (other option is "Clone with SSH").  Copy that URL.    <br> 
 <img src="../images/github_clone_button.png" align="left" height="40" width="180" >   <br> <br>
