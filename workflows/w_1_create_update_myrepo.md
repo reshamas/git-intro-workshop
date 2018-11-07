@@ -28,7 +28,7 @@
 </p>
 
 
-## Step 3: Let's "clone" the repo from GitHub to our terminal
+## Step 3: `clone` the repo from GitHub to our terminal
 
 **Q:  What is cloning?**  
 **A:  Making a copy of something.**
