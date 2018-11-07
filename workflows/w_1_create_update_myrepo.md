@@ -21,10 +21,10 @@
   - commit file at end of page. 
   - add a description for GitHub commit
 
-#### Note: Ensure commit messages are meaningful.
+### Note: Ensure commit messages are meaningful.
 
 <p>
-<img src="../images/useless_commit.png" width="50%" height="50%" />
+<img src="../images/useless_commit.png" width="45%" height="45%" />
 </p>
 
 
