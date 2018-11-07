@@ -1,5 +1,5 @@
 
-# Workflow 0: Setup
+# Workflow 0.2: Setup
 
 
 ## Step 1:  Setup `ssh` keys (generate a key pair)
