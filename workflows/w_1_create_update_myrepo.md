@@ -18,7 +18,10 @@
   - Here's the [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :octocat:
 - Add a Python file:  `hello.py`
   - add a line, the ubiquitous:  `print("Hello World")`
-- **Note:** Ensure commit messages are meaningful.
+  - commit file at end of page. 
+  - add a description for GitHub commit
+
+**Note:** Ensure commit messages are meaningful.
   
 
 ## Step 3:  copy URL for cloning
