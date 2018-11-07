@@ -79,6 +79,9 @@ cd gitclass
 ```
 
 ## Step 7:  look at remotes
+**Q:  What is a remote?**  
+**A:  **Remotes** are copies of a repo on another computer **(or on a service like GitHub)****
+
 <kbd> git remote -v </kbd>
 >my example
 ```bash
@@ -86,7 +89,7 @@ git remote -v
 origin	https://github.com/reshamas/gitclass.git (fetch)
 origin	https://github.com/reshamas/gitclass.git (push)
 ```
-**Remotes** are copies of a repo on another computer **(or on a service like Github)**  
+
 
 **Example:**  
 * `upstream` [organization repo]
