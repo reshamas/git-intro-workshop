@@ -3,12 +3,12 @@
 ## What Git is About
 - version control
 - GitHub is on browser
-- Git is at the terminal
+- git is at the terminal
 
 ## [Workflow 0.1](w_0_1_setup.md): software installations
 - editor
 - GitHub account
-- Git 
+- git 
 
 ## [Workflow 0.2](w_0_2_setup.md): setup
 - create `ssh` keys
