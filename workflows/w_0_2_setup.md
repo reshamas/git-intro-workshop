@@ -1,6 +1,11 @@
 
 # Workflow 0.2: Setup
 
+#### This is your checklist:
+- [ ] Set up `ssh` keys
+- [ ] Add `ssh` key to GitHub
+- [ ] Configure user
+- [ ] Set up working directory
 
 ## Step 1:  Setup `ssh` keys (generate a key pair)
 - ssh = secure shell
@@ -88,7 +93,7 @@ pbpaste
 ```
 
 
-## Step 2:  Connect `ssh` key to GitHub
+## Step 2:  Add `ssh` key to GitHub
 - go to your [GitHub account](https://github.com/) (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
 - click on your avatar/profile picture (upper right of screen)
 - go to `Settings`
