@@ -80,7 +80,7 @@ total 16
 
 ## Step 2:  Copy `ssh` key to clipboard using `pbcopy` command
 ```bash
-pbcopy < ~/.ssh/id_rsa.pub 
+pbcopy < ~/.ssh/id_rsa
 ```
 
 Verify the key has been copied to the clipboard by:  
