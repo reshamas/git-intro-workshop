@@ -31,11 +31,14 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
      - GitHub browser
      - Settings
      - Navigating page
-* Individual account  
+* Individual repositories 
      - learn to create a repo on GitHub and update via Git
      - clone a repository (copy from GitHub browser to local machine using Git)
      - add collaborators 
      - create a branch and work from it
      - undo Git changes
+* Collaborating
+     - clone an organization's repo
+     - make changes and submit a pull request
      
  
