@@ -112,6 +112,11 @@ To verify these additions, type:
 git config --list
 ```
 
+### Configure (terminal) editor of choice
+`git config --global core.editor "nano -w"` 
+
+Other editor options can be found in [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup/)
+
 ---
 ## Step 5: Create Your Working Directory for Git Repos
 Navigate to your home directory where you want to create a directory for the git work.  
