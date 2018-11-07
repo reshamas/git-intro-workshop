@@ -21,8 +21,12 @@
   - commit file at end of page. 
   - add a description for GitHub commit
 
-**Note:** Ensure commit messages are meaningful.
-  
+#### Note: Ensure commit messages are meaningful.
+
+<p>
+<img src="../images/useless_commit.png" width="50%" height="50%" />
+</p>
+
 
 ## Step 3: Let's "clone" the repo from GitHub to our terminal
 
