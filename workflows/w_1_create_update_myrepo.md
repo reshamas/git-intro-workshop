@@ -232,9 +232,10 @@ To https://github.com/reshamas/gitclass.git
 **Note:**  to `push` a "commit" is to "finalize the change":  
 - changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
 
-## Step 20:  look at files on working branch on GitHub
-<kbd> git status </kbd>  
-<kbd> git push origin <branch_wip> </kbd> 
+## Step 20:  look at files on working branch (on GitHub)
+**Note:**  we are on GitHub in browser
+- go to repo
+- may want to toggle "Branch"
 	
 ## Step 21:  submit pull request (on GitHub)
 Go to GitHub and refresh your browser.  
