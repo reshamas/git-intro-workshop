@@ -13,9 +13,6 @@
 
 ## Step 3: Let's "clone" (or copy) the repo from GitHub to our terminal
 
-#### Click on the green button for your forked GitHub repo, and ensure it is showing the url for **Clone with HTTPS**  (other option is "Clone with SSH").  Copy that URL.    <br> 
-<img src="../images/github_clone_button.png" align="left" height="40" width="180" >   <br> <br>
-    
 >my example  
 ```text
 https://github.com/reshamas/my_favorite_resources.git
@@ -27,10 +24,7 @@ Go to your working directory
 ```bash
 cd /Users/reshamashaikh/ds/gitsample
 ```
-```bash
-pwd
-/Users/reshamashaikh/ds/gitsample
-```  
+
 
 ## Step 5:  clone the repo  
 <kbd> git clone <url_name> </kbd> 
@@ -55,3 +49,14 @@ Unpacking objects: 100% (3/3), done
 cd my_favorite_resources
 ```
 
+## Step 7:  create a file: fruit.txt
+```txt
+apple
+banana
+pear
+```
+
+## Step 8:  add the file
+```bash
+git add fruit.txt
+```
