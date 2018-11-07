@@ -1,5 +1,10 @@
 # Workflows
 
+## What Git is About
+- version control
+- GitHub is on browser
+- Git is at the terminal
+
 ## [Workflow 1](w1_create_update_myrepo.md): create & update your repo
 - create repo under your account
 - update it via GitHub and your local computer terminal
