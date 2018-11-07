@@ -4,39 +4,41 @@
 
 ## Step 1:  Setup `ssh` keys (generate a key pair)
 - ssh = secure shell
+- (Note:  Windows users should have Ubuntu installed.)
 
-
-### Confirm we are in the directory
+### We begin by going to our our home directory
 ```bash
+cd ~
 pwd
 ```
-
 >my example
 ```bash
-% pwd
-/Users/reshamashaikh/.ssh
+cd ~
+pwd
+/Users/reshamashaikh
 ```
 
-
-### Step 1:  go to appropriate directory in termainal
-* In your Terminal, go to `.ssh` folder under your home directory  
-(Note:  Windows users should have Ubuntu installed.)  
 ### Go to `~.ssh` directory
 ```bash
 cd ~/.ssh
 ```
 >my example
 ```bash
+pwd
+/Users/reshamashaikh
 cd ~/.ssh
 pwd
-/Users/reshamashaikh/.ssh
-
+/Users/reshamashaikh/.ssh 
 ```
 
-**Note:**  If you do not have the `.ssh` directory, you can create it (make sure you are in your home directory):  
-`mkdir .ssh` 
+**Note:**  If you do not have the `.ssh` directory, you can create it
+- if you are in your home directory:
+	- `mkdir .ssh` 
+- if you are not in your home directory:
+	- `mkdir ~/.ssh`
 
-### Step 2:  Create `id_rsa` files if needed
+
+### Generate `id_rsa` files if needed
 - **Note:**  these `id_rsa` files contain a special password for your computer to be connect to network services (Ex:  GitHub, AWS).
 - Check to see if these files exist by typing <kbd> `ls -alt`</kbd>
 - If you do not have these two files (`id_rsa` and `id_rsa.pub`), create them by typing:  
@@ -75,6 +77,26 @@ total 16
 -rw-r--r--  1    422 Dec 17 12:20 id_rsa.pub
 % 
 ```
+
+## Step 2:  Copy `ssh` key to clipboard using `pbcopy` command
+```bash
+pbcopy < ~/.ssh/id_rsa.pub 
+```
+
+Verify the key has been copied to the clipboard by:  
+```bash
+pbpaste
+```
+
+
+## Step 3:  Connect `ssh` key to GitHub
+- go to your GitHub account (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
+- click on your avatar/profile picture (upper right of screen)
+- go to `Settings`
+- on left of screen, select `SSH and GPG keys`
+- Select <kbd> New SSH key </kbd>
+- for "Title":  entitle it  "GitHub key"
+- for "Key":  paste key from clipboard here
 
 
 ---
