@@ -5,6 +5,11 @@
 - GitHub is on browser
 - Git is at the terminal
 
+## [Workflow 0](w0_setup.md): setup
+- create `ssh` keys
+- add `ssh` key to GitHub
+- set up working directory
+
 ## [Workflow 1](w1_create_update_myrepo.md): create & update your repo
 - create repo under your account
 - update it via GitHub and your local computer terminal
