@@ -6,7 +6,7 @@
 - ssh = secure shell
 - (Note:  Windows users should have Ubuntu installed.)
 
-### We begin by going to our home directory
+### Step 1a:  We begin by going to our home directory
 ```bash
 cd ~
 pwd
@@ -18,7 +18,7 @@ pwd
 /Users/reshamashaikh
 ```
 
-### Go to `.ssh` directory
+### Step 1b:  Go to `.ssh` directory
 ```bash
 cd .ssh
 ```
@@ -38,7 +38,7 @@ pwd
 	- `mkdir ~/.ssh`
 
 
-### Generate `id_rsa` files if needed
+### Step 1c: Generate `id_rsa` files if needed
 - **Note:**  these `id_rsa` files contain a special password for your computer to be connect to network services (Ex:  GitHub, AWS).
 - Check to see if these files exist by typing <kbd> `ls -alt`</kbd>
 - If you do not have these two files (`id_rsa` and `id_rsa.pub`), create them by typing:  
@@ -90,23 +90,30 @@ pbpaste
 
 
 ## Step 3:  Connect `ssh` key to GitHub
-- go to your GitHub account (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
+- go to your [GitHub account](https://github.com/) (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
 - click on your avatar/profile picture (upper right of screen)
 - go to `Settings`
 - on left of screen, select `SSH and GPG keys`
 - Select <kbd> New SSH key </kbd>
 - for "Title":  entitle it  "GitHub key"
 - for "Key":  paste key from clipboard here
+- click <kbd> Add SSH key </kbd>
+- save, exit, confirm GitHub password as requested
 
 
 ---
-## Step x:  Setup (local computer)
+## Step 4:  Configure user (on local computer)
 ### Configure user name and email (lets Git know who you are)
 - `git config --global user.name "First Last"`  
 - `git config --global user.email "myname@email.com"` 
 
+To verify these additions, type:  
+```bash
+git config --list
+```
 
-### Step x: Create a Directory for Git Repos
+---
+### Step 5: Create Your Working Directory for Git Repos
 Navigate to your home directory where you want to create a directory for the git work.  
 For me, it is:  `/Users/reshamashaikh`  
 <kbd> cd /Users/reshamashaikh </kbd>  
