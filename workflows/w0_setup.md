@@ -1,0 +1,109 @@
+
+# Workflow 0: Setup
+
+
+## Step 1:  Setup `ssh` keys (generate a key pair)
+- ssh = secure shell
+
+
+### Confirm we are in the directory
+```bash
+pwd
+```
+
+>my example
+```bash
+% pwd
+/Users/reshamashaikh/.ssh
+```
+
+
+### Step 1:  go to appropriate directory in termainal
+* In your Terminal, go to `.ssh` folder under your home directory  
+(Note:  Windows users should have Ubuntu installed.)  
+### Go to `~.ssh` directory
+```bash
+cd ~/.ssh
+```
+>my example
+```bash
+cd ~/.ssh
+pwd
+/Users/reshamashaikh/.ssh
+
+```
+
+**Note:**  If you do not have the `.ssh` directory, you can create it (make sure you are in your home directory):  
+`mkdir .ssh` 
+
+### Step 2:  Create `id_rsa` files if needed
+- **Note:**  these `id_rsa` files contain a special password for your computer to be connect to network services (Ex:  GitHub, AWS).
+- Check to see if these files exist by typing <kbd> `ls -alt`</kbd>
+- If you do not have these two files (`id_rsa` and `id_rsa.pub`), create them by typing:  
+	- <kbd> `ssh-keygen`</kbd>
+	- Hit  <kbd> `enter`  </kbd> 3 times
+
+>my example
+```bash
+% pwd 
+/Users/reshamashaikh/.ssh
+% ls
+% ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/reshamashaikh/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/reshamashaikh/.ssh/id_rsa.
+Your public key has been saved in /Users/reshamashaikh/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jmDJes1qOzDi8KynXLGQ098JMSRnbIyt0w7vSgEsr2E reshamashaikh@RESHAMAs-MacBook-Pro.local
+The key's randomart image is:
++---[RSA 2048]----+
+|   .=+           |
+|.  .==           |
+|.o  +o           |
+|..+= oo          |
+|.E.+X.  S        |
+|+o=o=*oo.        |
+|++.*o.+o.        |
+|..*.oo           |
+|o= o+o           |
++----[SHA256]-----+
+% ls
+total 16
+-rw-------  1   1675 Dec 17 12:20 id_rsa
+-rw-r--r--  1    422 Dec 17 12:20 id_rsa.pub
+% 
+```
+
+
+---
+## Step x:  Setup (local computer)
+### Configure user name and email (lets Git know who you are)
+- `git config --global user.name "First Last"`  
+- `git config --global user.email "myname@email.com"` 
+
+
+### Step x: Create a Directory for Git Repos
+Navigate to your home directory where you want to create a directory for the git work.  
+For me, it is:  `/Users/reshamashaikh`  
+<kbd> cd /Users/reshamashaikh </kbd>  
+
+Create the directories:  
+<kbd>  mkdir ds  </kbd>  
+<kbd>  mkdir ds/gitsample </kbd>  
+<kbd>  cd ds/gitsample </kbd>  
+<kbd>  pwd </kbd>  
+  
+>my example
+```bash
+pwd
+/Users/reshamashaikh
+```
+```bash
+mkdir ds
+mkdir ds/gitsample
+cd ds/gitsample
+pwd
+/Users/reshamashaikh/ds/gitsample
+```
