@@ -3,6 +3,7 @@
 ## What Git is About
 - version control
 - GitHub is on browser
+  - settings
 - git is at the terminal
 
 ## [Workflow 0.1](w_0_1_installs.md): software installations
