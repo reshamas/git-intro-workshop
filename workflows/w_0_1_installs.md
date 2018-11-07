@@ -1,7 +1,7 @@
 
 # Workflow 0: Installations
 
-## Step 1:  Terminal
+## Step 1:  Work Environment:  Access to Terminal 
 - Mac users will use their **Terminal**
 - Windows users
 	- should have Ubuntu installed
@@ -19,7 +19,7 @@
 - https://github.com/
 - save your user ID and password somewhere you can easily find it
 
-## Step 4:  Install Git on Your Terminal
+## Step 4:  Install Git
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Confirm Git is installed by typing `git --version` on your terminal
 
