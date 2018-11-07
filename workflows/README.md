@@ -5,7 +5,7 @@
 - GitHub is on browser
 - git is at the terminal
 
-## [Workflow 0.1](w_0_1_setup.md): software installations
+## [Workflow 0.1](w_0_1_installs.md): software installations
 - editor
 - GitHub account
 - git 
