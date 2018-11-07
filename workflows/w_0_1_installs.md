@@ -4,7 +4,7 @@
 ## Choose a Graphical Editor
 - try Visual Studio Code
 	* [Visual Studio Code](https://visualstudio.microsoft.com/downloads/)
-- or one of these other editors
+- OR one of these other editors
 	* [Sublime Text 3](https://www.sublimetext.com/)
  	* [Atom](https://atom.io/)
  	* [Notepad++](https://notepad-plus-plus.org/) (for Windows)
