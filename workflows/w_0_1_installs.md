@@ -1,9 +1,14 @@
 
 # Workflow 0.1: Installations
+#### This is your checklist:
+- [ ] Access to terminal
+- [ ] Choose editor
+- [ ] GitHub account
+- [ ] Install Git
 
 ## Step 1:  Work Environment:  Access to Terminal 
-- Mac users will use their **Terminal**
-- Windows users
+- Mac:  use **Terminal**
+- Windows:
 	- should have Ubuntu installed
 	- try [Git for Windows](https://gitforwindows.org/)
 
