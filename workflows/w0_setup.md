@@ -18,7 +18,7 @@ pwd
 /Users/reshamashaikh
 ```
 
-### Go to `~.ssh` directory
+### Go to `.ssh` directory
 ```bash
 cd .ssh
 ```
