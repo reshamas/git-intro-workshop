@@ -1,5 +1,5 @@
 
-# Workflow 0: Installations
+# Workflow 0.1: Installations
 
 ## Step 1:  Work Environment:  Access to Terminal 
 - Mac users will use their **Terminal**
