@@ -24,14 +24,13 @@
 **Note:** Ensure commit messages are meaningful.
   
 
-## Step 3: Let's "clone" (or copy) the repo from GitHub to our terminal
+## Step 3: Let's "clone" the repo from GitHub to our terminal
 
 **Q:  What is cloning?**  
 **A:  Making a copy of something.**
 
-![orphan black](../images/orphan_black.jpg)
 <p>
-<img src="../images/orphan_black.jpg" width="75%" height="75%" />
+<img src="../images/orphan_black.jpg" width="50%" height="50%" />
 </p>
 
 ### copy URL for cloning
