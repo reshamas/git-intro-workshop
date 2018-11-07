@@ -78,18 +78,17 @@ total 16
 % 
 ```
 
-## Step 2:  Copy `ssh` key to clipboard using `pbcopy` command
+### Step 1d: Copy `ssh` key to clipboard using `pbcopy` command
 ```bash
 pbcopy < ~/.ssh/id_rsa
 ```
-
 Verify the key has been copied to the clipboard by:  
 ```bash
 pbpaste
 ```
 
 
-## Step 3:  Connect `ssh` key to GitHub
+## Step 2:  Connect `ssh` key to GitHub
 - go to your [GitHub account](https://github.com/) (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
 - click on your avatar/profile picture (upper right of screen)
 - go to `Settings`
@@ -102,7 +101,7 @@ pbpaste
 
 
 ---
-## Step 4:  Configure user (on local computer)
+## Step 3:  Configure user (on local computer)
 ### Configure user name and email (lets Git know who you are)
 - `git config --global user.name "First Last"`  
 - `git config --global user.email "myname@email.com"` 
@@ -118,7 +117,7 @@ git config --list
 Other editor options can be found in [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup/)
 
 ---
-## Step 5: Create Your Working Directory for Git Repos
+## Step 4: Create Your Working Directory for Git Repos
 Navigate to your home directory where you want to create a directory for the git work.  
 For me, it is:  `/Users/reshamashaikh`  
 <kbd> cd /Users/reshamashaikh </kbd>  
