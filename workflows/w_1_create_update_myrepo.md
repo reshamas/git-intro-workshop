@@ -25,6 +25,15 @@
   
 
 ## Step 3: Let's "clone" (or copy) the repo from GitHub to our terminal
+
+**Q:  What is cloning?**  
+**A:  Making a copy of something.**
+
+![orphan black](../images/orphan_black.jpg)
+<p>
+<img src="../images/orphan_black.jpg" width="75%" height="75%" />
+</p>
+
 ### copy URL for cloning
 
 Click on the green button for your forked GitHub repo, and ensure it is showing the url for **Clone with HTTPS**  (other option is "Clone with SSH").  Copy that URL.    <br> 
