@@ -38,7 +38,7 @@ pwd
 	- `mkdir ~/.ssh`
 
 
-### Step 1c: Generate `id_rsa` files if needed
+### Step 1c: Generate `id_rsa` keypair files if needed
 - **Note:**  these `id_rsa` files contain a special password for your computer to be connect to network services (Ex:  GitHub, AWS).
 - Check to see if these files exist by typing <kbd> `ls -alt`</kbd>
 - If you do not have these two files (`id_rsa` and `id_rsa.pub`), create them by typing:  
