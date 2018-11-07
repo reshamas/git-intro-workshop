@@ -20,13 +20,13 @@ pwd
 
 ### Go to `~.ssh` directory
 ```bash
-cd ~/.ssh
+cd .ssh
 ```
 >my example
 ```bash
 pwd
 /Users/reshamashaikh
-cd ~/.ssh
+cd .ssh
 pwd
 /Users/reshamashaikh/.ssh 
 ```
