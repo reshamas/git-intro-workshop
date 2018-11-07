@@ -15,16 +15,16 @@ Email:   rs2715@stern.nyu.edu
 * Organizer of [NYC PyLadies meetup group](https://www.meetup.com/NYC-PyLadies/)
 
 ---
+
 ### Installation
-This workshop covers Git CLI (command line interface).  [It does not use Git GUI.]  
-* [Getting Started:  Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+This workshop covers Git CLI (command line interface, *not Git GUI*).  
 
 ### Prerequisites
-* Create a GitHub account (save your user ID & password somewhere that is easy to find)
-* Unix access (Mac / Ubuntu-Linux) or shell access for Windows
-* Git Installation
-  - Install Git
-  - Confirm installation with `git --version`
+[Installation Instructions](/workflows/w_0_1_installs.md)
+1.  terminal access (Mac / Ubuntu-Linux) or shell access for Windows
+2.  editor
+3.  GitHub account
+4.  git 
 
 ### Objectives
 * Introduction to Git & GitHub
