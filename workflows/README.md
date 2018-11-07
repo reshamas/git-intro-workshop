@@ -5,12 +5,12 @@
 - GitHub is on browser
 - Git is at the terminal
 
-## [Workflow 0_1](w_0_1_setup.md): software installations
+## [Workflow 0.1](w_0_1_setup.md): software installations
 - editor
 - GitHub account
 - Git 
 
-## [Workflow 0_2](w_0_2_setup.md): setup
+## [Workflow 0.2](w_0_2_setup.md): setup
 - create `ssh` keys
 - add `ssh` key to GitHub
 - set up working directory
