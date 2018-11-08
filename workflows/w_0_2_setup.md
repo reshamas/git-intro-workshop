@@ -87,7 +87,7 @@ total 16
 ```bash
 pbcopy < ~/.ssh/id_rsa
 ```
-Verify the key has been copied to the clipboard by:  
+Verify the key has been copied to the clipboard by printing the contents at your terminal:  
 ```bash
 pbpaste
 ```
