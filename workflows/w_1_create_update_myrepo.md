@@ -95,9 +95,11 @@ origin	https://github.com/reshamas/gitclass.git (push)
 * `upstream` [organization repo]
 * `origin`   [your forked repo]  (will see this later in a fork-repo example)
 
-**Note:**  
+**Note 1:**  
 * notice you have push and pull access  
 
+**Note 2:**
+* to remove a remote:  `git remote rm <remote_name>`
 
 ## Step 8:  update a repo
 This step copies changes from a remote repository to a local repository.  
