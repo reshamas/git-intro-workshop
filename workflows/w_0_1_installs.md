@@ -9,7 +9,9 @@
 ## Step 1:  Work Environment:  Access to Terminal 
 - Mac:  use **Terminal**
 - Windows:
-	- should have Ubuntu installed
+	- Option 1:  use Ubuntu (must be installed prior to workshop)
+	- Option 2:  [Command Prompt](https://www.lifewire.com/command-prompt-2625840)
+	- Option 3:  [Power Shell](https://www.digitalcitizen.life/simple-questions-what-powershell-what-can-you-do-it)
 
 
 ## Step 2:  Choose a Graphical Editor
