@@ -19,7 +19,7 @@ cd ~
 pwd
 ```
 >my example
-```bash
+>```bash
 cd ~
 pwd
 /Users/reshamashaikh
