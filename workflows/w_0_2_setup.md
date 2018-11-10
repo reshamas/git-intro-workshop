@@ -15,10 +15,9 @@
 
 #### Step 1a:  We begin by going to our home directory (in terminal)
 >syntax
-```bash
-cd ~
-pwd
-```
+`cd ~`  
+`pwd`
+
 >my example
 ```bash
 cd ~
