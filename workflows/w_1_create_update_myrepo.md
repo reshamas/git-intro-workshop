@@ -109,7 +109,7 @@ origin	https://github.com/reshamas/gitclass.git (push)
 * notice you have push and pull access  
 
 **Note 2:**
-* to remove a remote:  `git remote rm <remote_name>`
+* to remove a remote:  <kbd> git remote rm <remote_name> </kbd>
 
 ## Step 8:  update a repo
 This step copies changes from a remote repository to a local repository.  
@@ -134,6 +134,7 @@ More details can be found here:  [branches](../git_6_branches.md)
  
 ## Step 10:  create a working branch
 <kbd> git branch <branch_name> </kbd>
+	
 >my example  
 `git branch reshama_wip`
 
@@ -154,6 +155,8 @@ git branch
 
 ## Step 13:  create a file
 <kbd>  ls </kbd>  
+<kbd> touch <file_name> </kbd>  
+	
 <kbd> touch mercury.md </kbd>  
 
 >my example
@@ -240,7 +243,7 @@ Changes to be committed:
 ```
 
 ## Step 19:  push changes to your 'working branch' 
-<kbd> git push origin <branch_wip> </kbd>  
+<kbd> git push <remote_name> <branch_wip> </kbd>  
 	
 >my example
 ```bash
