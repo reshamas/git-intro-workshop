@@ -11,7 +11,6 @@
 
 ### Step 1:  Setup `ssh` keys (generate a key pair)
 - ssh = secure shell
-- (Note:  Windows users should have Ubuntu installed.)
 
 #### Step 1a:  We begin by going to our home directory (in terminal)
 <kbd> cd ~ </kbd>  
