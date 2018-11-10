@@ -16,7 +16,7 @@
 #### Step 1a:  We begin by going to our home directory (in terminal)
 >syntax  
 
-<kbd> `cd ~`</kbd>  
+<kbd> cd ~ </kbd>  
 <kbd> pwd </kbd>
 
 >my example
@@ -27,10 +27,10 @@ pwd
 ```
 
 #### Step 1b:  Go to `.ssh` directory
->syntax
-```bash
-cd .ssh
-```
+>syntax  
+
+<kbd> cd .ssh </kbd>  
+
 >my example
 ```bash
 pwd
@@ -42,17 +42,17 @@ pwd
 
 **Note:**  If you do not have the `.ssh` directory, you can create it
 - if you are in your home directory:
-	- `mkdir .ssh` 
+	- <kbd> mkdir .ssh </kbd>  
 - if you are not in your home directory:
-	- `mkdir ~/.ssh`
+	- <kbd> mkdir ~/.ssh </kbd>  
 
 
 #### Step 1c: Generate `id_rsa` keypair files if needed
 - **Note:**  these `id_rsa` files contain a special password for your computer to be connect to network services (Ex:  GitHub, AWS).
 - Check to see if these files exist by typing <kbd> `ls -alt`</kbd>
 - If you do not have these two files (`id_rsa` and `id_rsa.pub`), create them by typing:  
-	- <kbd> `ssh-keygen`</kbd>
-	- Hit  <kbd> `enter`  </kbd> 3 times
+	- <kbd> ssh-keygen</kbd>
+	- Hit  <kbd> enter  </kbd> **3 times**
 
 >my example
 ```bash
@@ -121,9 +121,7 @@ pbpaste
 - `git config --global user.email "myname@email.com"` 
 
 To verify these additions, type:  
-```bash
-git config --list
-```
+<kbd> git config --list  </kbd>  
 
 ### Configure (terminal) editor of choice
 `git config --global core.editor "nano -w"` 
