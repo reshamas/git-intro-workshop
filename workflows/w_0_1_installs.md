@@ -10,10 +10,10 @@
 - Mac:  use **Terminal**
 - Windows:
 	- should have Ubuntu installed
-	- try [Git for Windows](https://gitforwindows.org/)
+
 
 ## Step 2:  Choose a Graphical Editor
-- try Visual Studio Code
+- Try Visual Studio Code
 	* [Visual Studio Code](https://visualstudio.microsoft.com/downloads/)
 - OR one of these other editors
 	* [Sublime Text 3](https://www.sublimetext.com/)
@@ -22,7 +22,7 @@
 
 ## Step 3:  Sign up for GitHub Account
 - https://github.com/
-- save your user ID and password somewhere you can easily find it
+- Save your user ID and password somewhere you can easily find it
 
 ## Step 4:  Install Git
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
