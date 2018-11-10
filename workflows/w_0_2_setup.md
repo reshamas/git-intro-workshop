@@ -16,8 +16,8 @@
 #### Step 1a:  We begin by going to our home directory (in terminal)
 >syntax  
 
-`cd ~`  
-`pwd`
+<kbd> `cd ~`</kbd>  
+<kbd> pwd </kbd>
 
 >my example
 ```bash
