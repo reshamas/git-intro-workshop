@@ -46,7 +46,9 @@ origin	https://github.com/reshamas/python_advanced.git (push)
 ```
 
 ## Step 7:  add 'upstream' remote
-<kbd> git remote add upstream <url> </kbd>
+<kbd> git remote add <remote_name> <url> </kbd>
+  
+<kbd> git remote add upstream <url> </kbd>  
 >my example
 ```bash
 git remote add upstream https://github.com/WiMLDS/python_advanced.git
@@ -142,7 +144,7 @@ total 0
  `git commit -m 'adding my python test file`
  
 ## Step 17:  push changes to your 'working branch'
-<kbd> git push origin <branch_wip> </kbd>  
+<kbd> git push <remote_name> <branch_name> </kbd>  
 >my example
 `git push origin reshama_wip`
 
