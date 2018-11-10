@@ -41,4 +41,6 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
      - clone an organization's repo
      - make changes and submit a pull request
      
- 
+### Online Communication Sheet
+* [shared doc](https://docs.google.com/document/d/1y5cuZW1M7uFTGou27zmRMRIok5javSQssqVvLU_apj4/edit?usp=sharing)
+
