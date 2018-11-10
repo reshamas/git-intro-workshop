@@ -14,8 +14,6 @@
 - (Note:  Windows users should have Ubuntu installed.)
 
 #### Step 1a:  We begin by going to our home directory (in terminal)
->syntax  
-
 <kbd> cd ~ </kbd>  
 <kbd> pwd </kbd>
 
@@ -27,8 +25,6 @@ pwd
 ```
 
 #### Step 1b:  Go to `.ssh` directory
->syntax  
-
 <kbd> cd .ssh </kbd>  
 
 >my example
