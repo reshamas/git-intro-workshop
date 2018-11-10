@@ -7,11 +7,13 @@
 - [ ] Configure user
 - [ ] Set up working directory
 
-## Step 1:  Setup `ssh` keys (generate a key pair)
+## Mac Users
+
+### Step 1:  Setup `ssh` keys (generate a key pair)
 - ssh = secure shell
 - (Note:  Windows users should have Ubuntu installed.)
 
-### Step 1a:  We begin by going to our home directory (in terminal)
+#### Step 1a:  We begin by going to our home directory (in terminal)
 ```bash
 cd ~
 pwd
@@ -23,7 +25,7 @@ pwd
 /Users/reshamashaikh
 ```
 
-### Step 1b:  Go to `.ssh` directory
+#### Step 1b:  Go to `.ssh` directory
 ```bash
 cd .ssh
 ```
@@ -43,7 +45,7 @@ pwd
 	- `mkdir ~/.ssh`
 
 
-### Step 1c: Generate `id_rsa` keypair files if needed
+#### Step 1c: Generate `id_rsa` keypair files if needed
 - **Note:**  these `id_rsa` files contain a special password for your computer to be connect to network services (Ex:  GitHub, AWS).
 - Check to see if these files exist by typing <kbd> `ls -alt`</kbd>
 - If you do not have these two files (`id_rsa` and `id_rsa.pub`), create them by typing:  
@@ -83,7 +85,7 @@ total 16
 % 
 ```
 
-### Step 1d: Copy `ssh` key to clipboard using `pbcopy` command
+#### Step 1d: Copy `ssh` key to clipboard using `pbcopy` command
 ```bash
 pbcopy < ~/.ssh/id_rsa.pub
 ```
@@ -93,6 +95,11 @@ pbpaste
 ```
 
 
+## Windows Users
+### Step 1:  [How to Create SSH Keys with PuTTY on Windows](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/)
+
+
+---
 ## Step 2:  Add `ssh` key to GitHub
 - go to your [GitHub account](https://github.com/) (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
 - click on your avatar/profile picture (upper right of screen)
