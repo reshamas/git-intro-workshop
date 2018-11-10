@@ -14,18 +14,20 @@
 - (Note:  Windows users should have Ubuntu installed.)
 
 #### Step 1a:  We begin by going to our home directory (in terminal)
+>syntax
 ```bash
 cd ~
 pwd
 ```
 >my example
->```bash
+```bash
 cd ~
 pwd
 /Users/reshamashaikh
 ```
 
 #### Step 1b:  Go to `.ssh` directory
+>syntax
 ```bash
 cd .ssh
 ```
