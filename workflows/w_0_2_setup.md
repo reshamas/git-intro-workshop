@@ -49,7 +49,7 @@ pwd
 
 #### Step 1c: Generate `id_rsa` keypair files if needed
 - **Note:**  these `id_rsa` files contain a special password for your computer to be connect to network services (Ex:  GitHub, AWS).
-- Check to see if these files exist by typing <kbd> `ls -alt`</kbd>
+- Check to see if these files exist by typing <kbd> ls -alt</kbd>
 - If you do not have these two files (`id_rsa` and `id_rsa.pub`), create them by typing:  
 	- <kbd> ssh-keygen</kbd>
 	- Hit  <kbd> enter  </kbd> **3 times**
@@ -88,14 +88,10 @@ total 16
 ```
 
 #### Step 1d: Copy `ssh` key to clipboard using `pbcopy` command
-```bash
-pbcopy < ~/.ssh/id_rsa.pub
-```
-Verify the key has been copied to the clipboard by printing the contents at your terminal:  
-```bash
-pbpaste
-```
+<kbd> pbcopy < ~/.ssh/id_rsa.pub </kbd>  
 
+Verify the key has been copied to the clipboard by printing the contents at your terminal:  
+<kbd> pbpaste < ~/.ssh/id_rsa.pub </kbd>  
 
 ## Windows Users
 ### Step 1:  [How to Create SSH Keys with PuTTY on Windows](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/)
@@ -117,14 +113,14 @@ pbpaste
 ---
 ## Step 3:  Configure user (on local computer)
 ### Configure user name and email (lets Git know who you are)
-- `git config --global user.name "First Last"`  
-- `git config --global user.email "myname@email.com"` 
+<kbd> git config --global user.name "First Last"  </kbd>  
+<kbd> git config --global user.email "myname@email.com"  </kbd>  
 
 To verify these additions, type:  
 <kbd> git config --list  </kbd>  
 
 ### Configure (terminal) editor of choice
-`git config --global core.editor "nano -w"` 
+<kbd> git config --global core.editor "nano -w"  </kbd> 
 
 Other editor options can be found in [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup/)
 
