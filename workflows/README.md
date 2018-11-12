@@ -6,6 +6,10 @@
   - settings
 - git is at the terminal
 
+## Why it's good to know Git
+- open source
+- knowing version control lets you contribute to open source (these repos are public)
+
 ## [Workflow 0.1](w_0_1_installs.md): software installations
 - terminal access
 - editor
