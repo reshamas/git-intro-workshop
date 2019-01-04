@@ -97,7 +97,7 @@ Verify the key has been copied to the clipboard by printing the contents at your
 
 
 ---
-## Step 2:  Add `ssh` key to GitHub
+### Step 2:  Add `ssh` key to GitHub
 - go to your [GitHub account](https://github.com/) (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
 - click on your avatar/profile picture (upper right of screen)
 - go to `Settings`
