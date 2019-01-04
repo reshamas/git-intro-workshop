@@ -21,11 +21,11 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
 
 ### Prerequisites
 
-#### Part 1:  [Installation Instructions](/workflows/w_0_1_installs.md) (Required)
-1.  terminal access (Mac / Ubuntu-Linux) or shell access for Windows
-2.  editor
-3.  GitHub account
-4.  git 
+#### Part 1:  [Pre-workshop Preparation](/workflows/w_0_1_installs.md) (Required)
+1.  Obtain terminal access (Mac / Ubuntu-Linux) or shell access for Windows
+2.  Install git 
+3.  Create a GitHub account
+4.  Download an editor of your choice
 
 #### Part 2:  [SSH Keys](/workflows/w_0_2_ssh_keys.md) (Optional)
 
