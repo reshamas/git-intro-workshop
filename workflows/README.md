@@ -8,6 +8,8 @@
 
 ## Why it's good to know Git
 - open source
+- can share your coding work publicly
+- can collaborate with others on projects
 - knowing version control lets you contribute to open source (these repos are public)
 
 ## [Workflow 0.1](w_0_1_installs.md): software installations
@@ -16,10 +18,16 @@
 - GitHub account
 - git 
 
-## [Workflow 0.2](w_0_2_setup.md): setup
+## [Workflow 0.2](w_0_2_ssh_keys.md): SSH keys setup
 - create `ssh` keys
 - add `ssh` key to GitHub
+
+## [Workflow 0.3](w_0_3_setup.md): general setup
 - set up working directory
+
+## [Workflow 0.4](w_0_4_questionnaire.md): questionnaire
+- complete questionnaire
+
 
 ## [Workflow 1](w_1_create_update_myrepo.md): create & update your repo
 - create repo on GitHub
