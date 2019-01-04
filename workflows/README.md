@@ -14,11 +14,11 @@
 
 ## [Workflow 0.1](w_0_1_installs.md): software installations
 - terminal access
-- editor
-- GitHub account
 - git 
+- GitHub account
+- editor
 
-## [Workflow 0.2](w_0_2_ssh_keys.md): SSH keys setup
+## [Workflow 0.2](w_0_2_ssh_keys.md): SSH keys setup (optional)
 - create `ssh` keys
 - add `ssh` key to GitHub
 
