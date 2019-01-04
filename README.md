@@ -19,9 +19,9 @@ Email:   rs2715@stern.nyu.edu
 ### Installation
 This workshop covers Git CLI (command line interface, *not Git GUI*).  
 
-### Prerequisites
+### Pre-workshop Preparation
 
-#### Part 1:  [Pre-workshop Preparation](/workflows/w_0_1_installs.md) (Required)
+#### Part 1:  [Software Installations](/workflows/w_0_1_installs.md) (Required)
 
 #### Part 2:  [SSH Keys](/workflows/w_0_2_ssh_keys.md) (Optional)
 
