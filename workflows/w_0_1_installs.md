@@ -5,6 +5,7 @@
 - [ ] Choose editor
 - [ ] GitHub account
 - [ ] Install Git
+- [ ] Complete brief prep questionnaire
 
 ## Step 1:  Work Environment:  Access to Terminal 
 - Mac:  use **Terminal**
@@ -30,3 +31,5 @@
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Confirm Git is installed by typing `git --version` on your terminal
 
+## Step 5:  Complete questionnaire
+- complete this brief [Git Workshop Prep Questionnaire](https://goo.gl/forms/xF9bqvnBxdz7QCHg2)
