@@ -1,4 +1,4 @@
-# Workflow 0.2: SSH Setup
+# Workflow 0.2: SSH Setup (optional for now)
 
 ### Purpose
 With SSH authentication you don't need to enter your credentials (GitHub username and password each time you push a commit to the remote).  You can skip this step for now and complete it later after the course.  
@@ -89,6 +89,8 @@ total 16
 
 Verify the key has been copied to the clipboard by printing the contents at your terminal:  
 <kbd> pbpaste </kbd>  
+
+---
 
 ## Windows Users
 ### Step 1:  [How to Create SSH Keys with PuTTY on Windows](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/)
