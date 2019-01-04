@@ -23,11 +23,13 @@
 - add `ssh` key to GitHub
 
 ## [Workflow 0.3](w_0_3_setup.md): general setup
+- configure user
 - set up working directory
 
 ## [Workflow 0.4](w_0_4_questionnaire.md): questionnaire
 - complete questionnaire
 
+---
 
 ## [Workflow 1](w_1_create_update_myrepo.md): create & update your repo
 - create repo on GitHub
