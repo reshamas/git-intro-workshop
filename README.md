@@ -20,11 +20,19 @@ Email:   rs2715@stern.nyu.edu
 This workshop covers Git CLI (command line interface, *not Git GUI*).  
 
 ### Prerequisites
-[Installation Instructions](/workflows/w_0_1_installs.md)
+
+#### Part 1:  [Installation Instructions](/workflows/w_0_1_installs.md) (Required)
 1.  terminal access (Mac / Ubuntu-Linux) or shell access for Windows
 2.  editor
 3.  GitHub account
 4.  git 
+
+#### Part 2:  [SSH Keys](/workflows/w_0_2_ssh.md) (Optional)
+
+#### Part 3:  [Setup](/workflows/w_0_3_setup.md) (Required)
+
+#### Part 4:  [Questionnaire](/workflows/w_0_4_questionnaire.md) (Required)
+
 
 ### Objectives
 * Introduction to Git & GitHub
