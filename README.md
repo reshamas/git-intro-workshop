@@ -27,7 +27,7 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
 3.  GitHub account
 4.  git 
 
-#### Part 2:  [SSH Keys](/workflows/w_0_2_ssh.md) (Optional)
+#### Part 2:  [SSH Keys](/workflows/w_0_2_ssh_keys.md) (Optional)
 
 #### Part 3:  [Setup](/workflows/w_0_3_setup.md) (Required)
 
