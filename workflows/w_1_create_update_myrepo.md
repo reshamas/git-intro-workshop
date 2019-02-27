@@ -25,10 +25,11 @@
 - Add a Markdown file:  `holiday.md`
   - add a line with an emoji
   - I added:  `Looking forward to the party :pizza: ! :smiley:_` :arrow_right: _Looking forward to the party :pizza: ! :smiley:_
-  - Here's the [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :octocat:
+  	- Here's the [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :octocat:  - commit file at end of page
+  - commit file at end of page
 - Add a Python file:  `hello.py`
   - add a line, the ubiquitous:  `print("Hello World")`
-  - commit file at end of page. 
+  - commit file at end of page
   - add a description for GitHub commit
 
 ### Note: Ensure commit messages are meaningful.
