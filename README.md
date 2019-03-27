@@ -3,7 +3,7 @@
 # Intro to Git Workshop
 
 #### Contact Info
-Presenter:  Reshama Shaikh  
+Instructor:  Reshama Shaikh  
 Blog:  https://reshamas.github.io  
 Email:   reshama@wimlds.org  
 Twitter:  [@reshamas](https://twitter.com/reshamas)
