@@ -5,7 +5,8 @@
 #### Contact Info
 Presenter:  Reshama Shaikh  
 Blog:  https://reshamas.github.io  
-Email:   rs2715@stern.nyu.edu  
+Email:   reshama@wimlds.org  
+Twitter:  [@reshamas](https://twitter.com/reshamas)
 
 #### About Me
 * Data Scientist (Statistician, MBA)
