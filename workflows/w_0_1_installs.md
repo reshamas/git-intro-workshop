@@ -11,11 +11,14 @@
 - Mac:  use **Terminal**
 - Windows:
 	- Option 1:  [Power Shell](https://www.digitalcitizen.life/simple-questions-what-powershell-what-can-you-do-it)
-	- Option 2:  [Command Prompt](https://www.lifewire.com/command-prompt-2625840)
-	- Option 3:  use Ubuntu (must be installed prior to workshop)
+	- Option 2:  Git Bash
+	- Option 3:  use Ubuntu (must be installed prior to workshop)  (for advanced users)
 
 ## Step 2:  Install Git
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Mac:  
+	- [Git](https://git-scm.com/download/mac)
+- Windows:  
+	- [Git for Windows (Git Bash)](https://gitforwindows.org/)
 - Confirm Git is installed by typing `git --version` on your terminal
 
 ## Step 3:  Sign up for a GitHub Account
