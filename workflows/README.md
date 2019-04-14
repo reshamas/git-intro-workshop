@@ -3,7 +3,6 @@
 ## What Git is About
 - version control
 - **GitHub** is on **browser**
-  - settings
 - **Git** is at the **terminal**
 
 <p>
