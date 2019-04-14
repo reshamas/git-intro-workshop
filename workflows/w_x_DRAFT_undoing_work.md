@@ -1,7 +1,7 @@
 # Workflow x:  Advanced
 
 ## Advanced Course
-- `.gitignore` (create data/ folder, wget a text file)
+- `.gitignore` (create data/ folder, .ipynb, wget a text file)
 - undo changes
 - add a license
 - work with two branches
