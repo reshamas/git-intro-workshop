@@ -6,6 +6,11 @@
   - settings
 - git is at the terminal
 
+<p>
+<img src="../images/git_vs_github.png" width="95%" height="95%" />
+</p>
+
+
 ## Why it's good to know Git
 - **backing up your code**
 - open source
