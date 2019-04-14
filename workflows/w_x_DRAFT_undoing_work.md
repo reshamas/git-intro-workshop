@@ -1,5 +1,12 @@
 # Workflow 1:  Make Update and Undo Changes
 
+## Advanced Course
+- `.gitignore` (create data/ folder, wget a text file)
+- undo changes
+- add a license
+- work with two branches
+
+
 ---
 
 ## Step 1: Let's "clone" a repo from GitHub to our terminal
