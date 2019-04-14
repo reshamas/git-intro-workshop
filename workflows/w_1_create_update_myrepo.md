@@ -133,8 +133,11 @@ This step copies changes from a remote repository to a local repository.
 git branch
 * master
 ```
-**Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
-More details can be found here:  [branches](../git_6_branches.md)
+
+### Why use branches?
+- **Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
+- Can work on different parts in the codebase, or "features" or "web page updates"
+- More details can be found here:  [branches](../git_6_branches.md)
  
 ## Step 10:  create a working branch
 <kbd> git branch <branch_name> </kbd>
