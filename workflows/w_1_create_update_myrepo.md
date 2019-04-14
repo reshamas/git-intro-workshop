@@ -137,6 +137,7 @@ git branch
 ### Why use branches?
 - **Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
 - Can work on different parts in the codebase, or "features" or "web page updates"
+    - create a separate *history* for each new *feature*
 - More details can be found here:  [branches](../git_6_branches.md)
  
 ## Step 10:  create a working branch
