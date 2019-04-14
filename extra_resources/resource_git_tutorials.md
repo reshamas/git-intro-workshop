@@ -4,6 +4,7 @@
 * [GitHub Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Tutorials
+* [video:  Git for Ages 4 and Up (1 hr 40 min)](https://www.youtube.com/watch?v=1ffBJ4sVUb4)
 * [Version Control with Git (Software Carpentry)](http://swcarpentry.github.io/git-novice/)
 * [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/)
 * [GitHub’s Interactive Tutorial](https://try.github.io/levels/1/challenges/1)
