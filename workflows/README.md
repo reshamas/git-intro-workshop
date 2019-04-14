@@ -2,9 +2,9 @@
 
 ## What Git is About
 - version control
-- GitHub is on browser
+- **GitHub** is on **browser**
   - settings
-- git is at the terminal
+- **Git** is at the **terminal**
 
 <p>
 <img src="../images/git_github_difference.png" width="95%" height="95%" />
