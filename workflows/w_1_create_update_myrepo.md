@@ -12,6 +12,9 @@
 
 ---
 
+## Step 0:  Configure user
+REMINDER:  did you [configure the user](https://github.com/reshamas/git-intro-workshop/blob/master/workflows/w_0_3_setup.md#step-1--configure-user-on-local-computer)?
+
 ## Step 1:  create a repo (on GitHub)
 - Click on `+` next to your profile picture
 - Select `New Repository`
