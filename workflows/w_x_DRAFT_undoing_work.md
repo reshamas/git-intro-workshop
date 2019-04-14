@@ -7,6 +7,8 @@
 - work with two branches
 - use `git diff`
 - shell plugins
+- `git fetch`
+
 
 
 
