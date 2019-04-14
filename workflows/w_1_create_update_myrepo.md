@@ -191,7 +191,7 @@ total 8
 ---
 # :arrow_right_hook: Git Workflow
 <p>
-<img src="../images/git_shopping_cart.png" width="99%" height="99%" />
+<img src="../images/git_shopping_cart.jpg" width="99%" height="99%" />
 </p>
 
 ## Step 14:  get status of repo
