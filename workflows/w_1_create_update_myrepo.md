@@ -125,7 +125,9 @@ This step copies changes from a remote repository to a local repository.
 - <kbd> git pull </kbd> to sync repo
 
 
-# Why use branches?
+---
+
+# :arrow_right_hook: Why use branches?
 - **Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
 - Can work on different parts in the codebase, or "features" or "web page updates"
     - create a separate *history* for each new *feature*
@@ -185,6 +187,12 @@ total 8
 
 	mercury.md
 ```
+
+---
+# :arrow_right_hook: Git Workflow
+<p>
+<img src="../images/git_shopping_cart.png" width="99%" height="99%" />
+</p>
 
 ## Step 14:  get status of repo
 <kbd> git status </kbd>  
