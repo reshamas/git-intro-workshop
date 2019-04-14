@@ -1,10 +1,14 @@
-# Workflow 1:  Make Update and Undo Changes
+# Workflow x:  Advanced
 
 ## Advanced Course
 - `.gitignore` (create data/ folder, wget a text file)
 - undo changes
 - add a license
 - work with two branches
+- use `git diff`
+- shell plugins
+
+
 
 
 ---
