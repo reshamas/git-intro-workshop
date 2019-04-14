@@ -8,6 +8,8 @@
 - use `git diff`
 - shell plugins
 - `git fetch`
+- `git rebase`
+
 
 
 
