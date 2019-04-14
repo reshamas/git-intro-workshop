@@ -125,6 +125,12 @@ This step copies changes from a remote repository to a local repository.
 - <kbd> git pull </kbd> to sync repo
 
 
+# Why use branches?
+- **Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
+- Can work on different parts in the codebase, or "features" or "web page updates"
+    - create a separate *history* for each new *feature*
+- More details can be found here:  [branches](../git_6_branches.md)
+
 
 ## Step 9:  list branches
 <kbd> git branch </kbd>  
@@ -134,11 +140,6 @@ git branch
 * master
 ```
 
-### Why use branches?
-- **Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
-- Can work on different parts in the codebase, or "features" or "web page updates"
-    - create a separate *history* for each new *feature*
-- More details can be found here:  [branches](../git_6_branches.md)
  
 ## Step 10:  create a working branch
 <kbd> git branch <branch_name> </kbd>
