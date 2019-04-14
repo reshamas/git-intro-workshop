@@ -7,7 +7,7 @@
 - git is at the terminal
 
 <p>
-<img src="../images/git_vs_github.png" width="95%" height="95%" />
+<img src="../images/git_github_difference.png" width="95%" height="95%" />
 </p>
 
 
