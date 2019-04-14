@@ -7,6 +7,7 @@
 - git is at the terminal
 
 ## Why it's good to know Git
+- **backing up your code**
 - open source
 - can share your coding work publicly
 - can collaborate with others on projects
