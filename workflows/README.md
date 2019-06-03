@@ -5,15 +5,15 @@
 
 ## GitHub and Git
 
-### Git     --[terminal]
-Git is a system for version control. It runs at the **command line on your local machine** and allows you to keep track of your files and modifications in a "repository". 
-
 ### GitHub    --[browser]
 GitHub is a **website** that allows you to upload your git respositories online. It allows you to have a backup of your files, has a visual interface to navigate your repos, and it allows other people to be able to view your repos. 
 
 GitHub is a central place to store your repo, so others can clone it, push to it, and pull from it.
 
 It also includes some very nice tools for software projects, like Markdown README rendering, issue tracker and wiki tools, and the ability to “fork” a project to make your own independent copy of it for development.
+
+### Git     --[terminal]
+Git is a system for version control. It runs at the **command line on your local machine** and allows you to keep track of your files and modifications in a "repository". 
 
 
 <p>
