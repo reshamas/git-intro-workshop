@@ -1,5 +1,7 @@
 # Workflows
 
+---
+
 ## What It's All About
 - version control
 
@@ -29,21 +31,24 @@ Git is a system for version control. It runs at the **command line on your local
 - can collaborate with others on projects
 - knowing version control lets you contribute to open source (these repos are public)
 
-## [Workflow 0.1](w_0_1_installs.md): software installations
+---
+## Setup
+
+### [Workflow 0.1](w_0_1_installs.md): software installations
 - terminal access
 - git 
 - GitHub account
 - editor
 
-## [Workflow 0.2](w_0_2_ssh_keys.md): SSH keys setup (optional)
+### [Workflow 0.2](w_0_2_ssh_keys.md): SSH keys setup (optional)
 - create `ssh` keys
 - add `ssh` key to GitHub
 
-## [Workflow 0.3](w_0_3_setup.md): general setup
+### [Workflow 0.3](w_0_3_setup.md): general setup
 - configure user
 - set up working directory
 
-## [Workflow 0.4](w_0_4_questionnaire.md): questionnaire (optional)
+### [Workflow 0.4](w_0_4_questionnaire.md): questionnaire (optional)
 - complete questionnaire
 
 ---
