@@ -190,6 +190,17 @@ total 8
 
 ---
 # :arrow_right_hook: Git Workflow
+
+## Git Flow 
+| #     | Command                   | Step  | Description      |
+|-------|---------------------------| -----|------------------|
+|  1    | `git add <filename>`      | begin tracking a file | adds a change in the working directory to the staging area; tells Git that you want to include updates to a particular file in the next commit.  |    
+|  2    | `git commit -m "message"` | log the change | changes are recorded in Git (interaction is with local repo) |  
+|  3    | `git push`                | finalize the change | changes are pushed from Git (local, terminal) to GitHub (browser account, remote) | 
+ 
+**Note:**  It is better to make many commits with smaller changes rather than of one commit with massive changes: small commits are easier to read and review.
+
+
 <p>
 <img src="../images/git_shopping_cart.jpg" width="99%" height="99%" />
 </p>
