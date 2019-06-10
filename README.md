@@ -28,7 +28,7 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
 
 #### Part 3:  [Setup](/workflows/w_0_3_setup.md) (Required)
 
-#### Part 4:  [Questionnaire](/workflows/w_0_4_questionnaire.md) (Required)
+#### Part 4:  [Questionnaire](/workflows/w_0_4_questionnaire.md) (Optional)
 
 
 ### Objectives
