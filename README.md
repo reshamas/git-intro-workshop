@@ -2,18 +2,7 @@
 
 # Intro to Git Workshop
 
-#### Contact Info
-Instructor:  Reshama Shaikh  
-Blog:  https://reshamas.github.io  
-Email:   reshama@wimlds.org  
-Twitter:  [@reshamas](https://twitter.com/reshamas)
-
-#### About Me
-* Data Scientist (Statistician, MBA)
-* Organizer of WiMLDS meetup group
-     - [NYC Women in Machine Learning & Data Science](http://www.meetup.com/NYC-Women-in-Machine-Learning-Data-Science/)
-     - http://wimlds.org/
-* Organizer of [NYC PyLadies meetup group](https://www.meetup.com/NYC-PyLadies/)
+### Course Created by:  [Reshama Shaikh](https://reshamas.github.io) | [@reshamas](https://twitter.com/reshamas)
 
 ---
 
