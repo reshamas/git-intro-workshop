@@ -35,6 +35,16 @@ Git is a system for version control. It runs at the **command line on your local
 - avatar / "Your profile" 
 - avatar / "Settings"
 
+--
+## Flow for Write/Speak/Code
+1.  intro to Git & Github
+2.  go over GitHub options
+3.  Everyone creates GitHub account
+4.  create a repo on GitHub
+
+If there is time, we will:  
+1.  do Git install
+2.  fork / clone repo
 
 ---
 ## Setup
