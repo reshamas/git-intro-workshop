@@ -31,6 +31,11 @@ Git is a system for version control. It runs at the **command line on your local
 - can collaborate with others on projects
 - knowing version control lets you contribute to open source (these repos are public)
 
+## Intro to GitHub
+- avatar / "Your profile" / 
+- avatar / "Settings"
+- 
+
 ---
 ## Setup
 
