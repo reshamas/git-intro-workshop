@@ -37,7 +37,7 @@ Git is a system for version control. It runs at the **command line on your local
 
 ---
 
-## Flow for Write/Speak/Code 2019
+## Flow for Write/Speak/Code 2019  
 1.  intro to Git & Github
 2.  go over GitHub options
 3.  everyone creates GitHub account
