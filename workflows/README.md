@@ -25,6 +25,7 @@ Git is a system for version control. It runs at the **command line on your local
 
 
 ## Why it's good to know Git
+- **version control**
 - **backing up your code**
 - open source
 - can share your coding work publicly
