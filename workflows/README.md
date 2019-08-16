@@ -31,6 +31,7 @@ Git is a system for version control. It runs at the **command line on your local
 - can share your coding work publicly
 - can collaborate with others on projects
 - knowing version control lets you contribute to open source (these repos are public)
+- [GitHub Pages](https://pages.github.com/) allows you to host static websites for free.
 
 ## Intro to GitHub
 - avatar / "Your profile" 
