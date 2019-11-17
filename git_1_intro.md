@@ -39,7 +39,7 @@ Branching means you diverge from the main line of development and continue to do
 ---
 ## References
 
-
+The [Git Pro](https://git-scm.com/book/en/v2) book is available as HTML, [a Git Hub reposiotry](https://github.com/progit/progit2), and a [printed book](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20). 
 
 ### Fun Fact on Git
 * Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
