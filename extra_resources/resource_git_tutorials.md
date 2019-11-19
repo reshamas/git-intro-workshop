@@ -9,7 +9,7 @@
 * [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/)
 * [GitHub’s Interactive Tutorial](https://try.github.io/levels/1/challenges/1)
 * [GitHub’s “Hello World” Tutorial](https://guides.github.com/activities/hello-world/)
-
+* The [Git Pro](https://git-scm.com/book/en/v2) book is available as HTML, [a Git Hub reposiotry](https://github.com/progit/progit2), and a [printed book](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20). 
 
 ## More Detail
 * [Pro Git by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
