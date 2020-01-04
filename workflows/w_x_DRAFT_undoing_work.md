@@ -25,10 +25,12 @@ https://github.com/reshamas/git-intro-workshop
 ```
 
 ## Step 2:  go to working directory (your local terminal)
-Go to your working directory  
+Go to your working directory:  
+<kbd> cd ~/Desktop/gitsample </kbd>
+
 >my example
 ```bash
-cd /Users/reshamashaikh/Desktop/gitsample
+cd ~/Desktop/gitsample
 ```
 
 
