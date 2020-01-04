@@ -22,7 +22,7 @@ Go to your working directory
 
 >my example
 ```bash
-cd /Users/reshamashaikh/Desktop/gitsample
+cd ~/Desktop/gitsample
 ```
 
 ## Step 4:  clone the repo  
