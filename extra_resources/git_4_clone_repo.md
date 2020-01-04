@@ -10,7 +10,7 @@
 ## Select green button "Clone or download" and copy url
 
 ### Go to directory on local computer  
-For me, it is: `/Users/reshamashaikh/ds/gitsample`  
+For me, it is: `/Users/reshamashaikh/Desktop/gitsample`  
 >my example
 ```bash
 pwd
