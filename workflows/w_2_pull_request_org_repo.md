@@ -18,9 +18,11 @@ https://github.com/reshamas/python_advanced.git
 
 ## Step 3:  go to working directory (your local terminal)
 Go to your working directory  
+<kbd> cd ~/Desktop/gitsample </kbd>
+
 >my example
 ```bash
-cd /Users/reshamashaikh/ds/gitsample
+cd /Users/reshamashaikh/Desktop/gitsample
 ```
 
 ## Step 4:  clone the repo  
@@ -178,7 +180,7 @@ Select green button "Compare and pull request"
 ---
 
 ## Summary of Steps
-<kbd> cd /Users/reshamashaikh/ds/gitsample </kbd>  
+<kbd> cd ~/Desktop/gitsample </kbd>  
 <kbd> pwd </kbd>   
 <kbd> git clone https://github.com/reshamas/python_advanced.git </kbd>  
 <kbd> cd python_advanced </kbd>   
