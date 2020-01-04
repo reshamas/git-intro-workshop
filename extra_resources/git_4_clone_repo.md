@@ -14,7 +14,7 @@ For me, it is: `/Users/reshamashaikh/Desktop/gitsample`
 >my example
 ```bash
 pwd
-/Users/reshamashaikh/ds/gitsample
+/Users/reshamashaikh/Desktop/gitsample
 ```
 
 #### Clone repo
