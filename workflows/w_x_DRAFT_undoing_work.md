@@ -28,7 +28,7 @@ https://github.com/reshamas/git-intro-workshop
 Go to your working directory  
 >my example
 ```bash
-cd /Users/reshamashaikh/ds/gitsample
+cd /Users/reshamashaikh/Desktop/gitsample
 ```
 
 
