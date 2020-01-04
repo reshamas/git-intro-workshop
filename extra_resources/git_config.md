@@ -30,9 +30,9 @@ Mac:
 
 ### Global Configuration File
 #### Edit config file
-```bash
-nano /Users/reshamashaikh/.gitconfig
-```
+you try:  
+<kbd> nano ~/.gitconfig </kbd>
+
 
 >my example  
 
