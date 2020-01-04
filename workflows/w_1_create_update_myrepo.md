@@ -65,11 +65,11 @@ https://github.com/reshamas/gitclass.git
 Go to your working directory  
 >my example
 ```bash
-cd /Users/reshamashaikh/ds/gitsample
+cd ~/Desktop/gitsample
 ```
 ```bash
 pwd
-/Users/reshamashaikh/ds/gitsample
+/Users/reshamashaikh/Desktop/gitsample
 ```  
 
 ## Step 5:  clone the repo  
