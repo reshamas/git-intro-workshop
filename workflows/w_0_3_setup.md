@@ -32,8 +32,8 @@ pwd
 /Users/reshamashaikh
 ```
 ```bash
-mkdir mkdir ~/Desktop/gitsample
-cd mkdir ~/Desktop/gitsample
+mkdir ~/Desktop/gitsample
+cd ~/Desktop/gitsample
 pwd
 /Users/reshamashaikh/Desktop/gitsample
 
