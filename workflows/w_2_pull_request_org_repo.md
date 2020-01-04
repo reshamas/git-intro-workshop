@@ -118,7 +118,7 @@ Note:  We will submit a pull request to the repo and that file will go here:  ht
 >my example
 ```bash
 % pwd
-/Users/reshamashaikh/ds/gitsample/python_advanced
+/Users/reshamashaikh/Desktop/gitsample/python_advanced
 % ls
 total 24
 -rw-r--r--  1    66 Nov 22 07:31 README.md
@@ -159,7 +159,7 @@ We'll submit the pull request from the `master` branch.
 3. **A**dd / **C**ommit / **P**ush the file to master branch
 ```bash
 % pwd
-/Users/reshamashaikh/ds/gitsample/python_advanced/submissions
+/Users/reshamashaikh/Desktop/gitsample/python_advanced/submissions
 ls reshama
 git checkout master
 git checkout reshama_wip reshama/venus.py
