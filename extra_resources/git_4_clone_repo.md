@@ -3,7 +3,7 @@
 **Q:  What is cloning?**  
 **A:  Making a copy of something.**
 
-![orphan black](images/orphan_black.jpg)
+![orphan black](../images/orphan_black.jpg)
 
 ---
 
