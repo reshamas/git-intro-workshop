@@ -19,7 +19,7 @@ Other editor options can be found in [Setting Up Git](http://swcarpentry.github.
 
 ## Step 2: Create Your Working Directory for Git Repos
 Navigate to your home directory where you want to create a directory for the git work.   
-<kbd cd ~/Desktop/ </kbd>
+<kbd> cd ~/Desktop/ </kbd>
 
 Create the directories:  
 <kbd>  mkdir ~/Desktop/gitsample </kbd>  
