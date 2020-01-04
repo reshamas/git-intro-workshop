@@ -305,7 +305,7 @@ Select green button "Compare and pull request"
 ---
 
 ## Summary of Steps
-<kbd> cd /Users/reshamashaikh/ds/gitsample </kbd>  
+<kbd> cd /Users/reshamashaikh/Desktop/gitsample </kbd>  
 <kbd>  pwd </kbd>   
 <kbd> git clone https://github.com/reshamas/gitclass.git </kbd>   
 <kbd> cd gitclass </kbd>   
