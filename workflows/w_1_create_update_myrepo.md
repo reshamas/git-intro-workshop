@@ -147,7 +147,7 @@ git branch
 <kbd> git branch <branch_name> </kbd>
 	
 >my example  
-`git branch reshama_wip`
+`git branch practice`
 
 ## Step 11:  list branches
 <kbd> git branch </kbd>  
@@ -155,13 +155,13 @@ git branch
 ```git
 git branch
 * master
-  reshama_wip
+  practice
 ```
 
 ## Step 12:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
 >my example  
-`git checkout reshama_wip`
+`git checkout practice`
 
 
 ## Step 13:  create a file
@@ -234,7 +234,7 @@ git add mercury.md
 >my example
 ```bash
 % git status
-On branch reshama_wip
+On branch practice
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
@@ -263,7 +263,7 @@ git commit -m 'adding first planet'
 >my example
 ```bash
 % git status
-On branch reshama_wip
+On branch practice
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
@@ -275,7 +275,7 @@ Changes to be committed:
 	
 >my example
 ```bash
-git push origin reshama_wip
+git push origin practice
 ```	
 
 ```bash
@@ -285,7 +285,7 @@ Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 273 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/reshamas/gitclass.git
- * [new branch]      reshama_wip -> reshama_wip
+ * [new branch]      practice -> practice
  ```
 **Note:**  to `push` a "commit" is to "finalize the change":  
 - changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
@@ -311,12 +311,12 @@ Select green button "Compare and pull request"
 <kbd> cd gitclass </kbd>   
 <kbd> git remote -v </kbd>  
 <kbd> git pull </kbd>  
-<kbd> git branch </kbd> <kbd> git branch reshama_wip </kbd>  
-<kbd> git branch </kbd> <kbd> git checkout reshama_wip </kbd>  
+<kbd> git branch </kbd> <kbd> git branch practice </kbd>  
+<kbd> git branch </kbd> <kbd> git checkout practice </kbd>  
 <kbd>  ls </kbd>  
 <kbd> touch mercury.md </kbd>  
 <kbd>  ls </kbd>  
 <kbd>  git status </kbd> <kbd>  git add mercury.md </kbd>  		  
 <kbd>  git status </kbd> <kbd>  git commit -m 'adding first planet' </kbd>  		  
-<kbd>  git status </kbd> <kbd>  git push origin reshama_wip </kbd>  
+<kbd>  git status </kbd> <kbd>  git push origin practice</kbd>  
 
