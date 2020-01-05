@@ -15,13 +15,13 @@
 ### Create a branch
 ```bash
 git branch
-git branch reshama_wip
+git branch practice
 git branch
 ```
 
 ### Switch to working branch
 ```bash
-git checkout reshama_wip
+git checkout practice
 ```
 
 ---
@@ -34,16 +34,16 @@ git checkout reshama_wip
  * **List branches**  
     `$ git branch`
  * **Create a new branch**  
-    `$ git branch reshama_wip`
+    `$ git branch practice`
  * **Navigate between branches**  
     `$ git checkout branchname`
  * **Create and switch to branch** (2 steps in 1 line)  
     `$ git checkout -b testbranch`
 
  * **Delete a branch** (safe delete; won't delete if there are unmerged changes)  
-    `$ git branch -d reshama_wip`
+    `$ git branch -d practice`
  * **Delete a branch** (force delete; will delete even if branch has unmerged changes)  
-    `$ git branch -D reshama_wip`
+    `$ git branch -D practice`
 
 
  * **Rename a branch** (whichever is the current one, be careful)  
@@ -61,7 +61,7 @@ git checkout reshama_wip
 ## Pushing to Branches
 `git push <remote_name> <branch_name>`  
 Example:    
-`git push origin reshama_wip`
+`git push origin practice`
 
 ---
 ## Copying from Branches
@@ -85,7 +85,7 @@ git checkout branch_wip myfolder/**
 ## Aside: Working Practice
 #### Launch notebook from working branch (leave master branch intact)
 ```bash
-~/git_work/data-science-from-scratch  reshama_wip ✔                                498d  
+~/git_work/data-science-from-scratch  practice ✔                                498d  
 ▶ jupyter notebook
 ```
 
