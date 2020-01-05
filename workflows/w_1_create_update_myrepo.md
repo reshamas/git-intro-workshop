@@ -210,7 +210,7 @@ total 8
 >my example
 ```bash
 % git status
-On branch reshama_wip
+On branch practice
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 	mercury.md
@@ -251,7 +251,7 @@ git commit -m 'adding first planet'
 	
 ```bash
 % git commit -m 'adding first planet'
-[reshama_wip 3950dd9] adding first planet
+[practice 3950dd9] adding first planet
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 mercury.md
 ```
