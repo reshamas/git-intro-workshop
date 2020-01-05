@@ -85,7 +85,7 @@ git branch
 ## Step 11:  create a working branch
 <kbd> git branch <branch_name> </kbd>
 >my example  
-`git branch reshama_wip`
+`git branch practice`
 
 ## Step 12:  list branches
 <kbd> git branch </kbd>  
@@ -93,13 +93,13 @@ git branch
 ```git
 git branch
 * master
-  reshama_wip
+  practice
 ```
 
 ## Step 13:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
 >my example  
-`git checkout reshama_wip`
+`git checkout practice`
 
 ## Step 14:  create a file
 Note:  We will submit a pull request to the repo and that file will go here:  https://github.com/WiMLDS/python_advanced/tree/master/submissions  
@@ -148,21 +148,21 @@ total 0
 ## Step 17:  push changes to your 'working branch'
 <kbd> git push <remote_name> <branch_name> </kbd>  
 >my example
-`git push origin reshama_wip`
+`git push origin practice`
 
 ## Step 18 (optional):  copy changes over to master branch
 We'll submit the pull request from the `master` branch.  
 1. Switch to master branch  
 <kbd> git checkout master </kbd>  
 2. Copy file over to master branch  
-<kbd> git checkout reshama_wip reshama/venus.py </kbd>  
+<kbd> git checkout practice reshama/venus.py </kbd>  
 3. **A**dd / **C**ommit / **P**ush the file to master branch
 ```bash
 % pwd
 /Users/reshamashaikh/Desktop/gitsample/python_advanced/submissions
 ls reshama
 git checkout master
-git checkout reshama_wip reshama/venus.py
+git checkout practice reshama/venus.py
 git status
 git add reshama/venus.py
 git status
@@ -188,8 +188,8 @@ Select green button "Compare and pull request"
 <kbd> git remote add upstream https://github.com/WiMLDS/python_advanced.git </kbd>  
 <kbd> git remote -v </kbd>  
 <kbd> git pull </kbd>  or <kbd> git pull upstream master </kbd>  
-<kbd> git branch </kbd> <kbd> git branch reshama_wip </kbd>  
-<kbd> git branch </kbd> <kbd> git checkout reshama_wip </kbd>  
+<kbd> git branch </kbd> <kbd> git branch practice </kbd>  
+<kbd> git branch </kbd> <kbd> git checkout practice </kbd>  
 <kbd> cd submissions </kbd>  
 <kbd> mkdir reshama </kbd>  
 <kbd>  cd reshama </kbd>  
@@ -197,4 +197,4 @@ Select green button "Compare and pull request"
 <kbd>  ls </kbd>  
 <kbd>  git status </kbd> <kbd>  git add test_python_file.py </kbd>  		  
 <kbd>  git status </kbd> <kbd>  git commit -m 'adding my python test file' </kbd>  		  
-<kbd>  git status </kbd> <kbd>  git push origin reshama_wip </kbd> 
+<kbd>  git status </kbd> <kbd>  git push origin practice </kbd> 
