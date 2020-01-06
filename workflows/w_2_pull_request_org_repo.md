@@ -1,7 +1,7 @@
 # Workflow 2:  Submit Pull Request, Steps A to Z
 
 ## Step 1:  fork the repo (on GitHub)
-https://github.com/WiMLDS/python_advanced
+https://github.com/nyc-pyladies/python_advanced
 
 ## Step 2:  copy forked url for cloning 
 <img src="../images/github_clone_button.png" align="left" height="40" width="100" >    
