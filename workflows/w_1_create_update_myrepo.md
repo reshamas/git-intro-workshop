@@ -75,10 +75,11 @@ Click on the green button for your forked GitHub repo, and ensure it is showing 
 </p>
 </kbd>
 
+<p>
+</p>
 
 
-
->my example  
+>example of my repo's ulr  
 ```text
 https://github.com/reshamas/gitclass.git
 ```
