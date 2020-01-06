@@ -91,7 +91,7 @@ Go to your working directory
 cd ~/Desktop/gitsample
 ```
 
-**P**rint **w**** **d**irectory:  
+**P**rint **w**orking **d**irectory:  
 <kbd> pwd </kbd>
 
 >my example
