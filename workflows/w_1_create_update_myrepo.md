@@ -24,7 +24,7 @@ REMINDER:  did you [configure the user name](https://github.com/reshamas/git-int
 - Check box for `Initialize this repository with a README` :white_check_mark: :heavy_exclamation_mark:
 - Select green button `Create repository`
 
-![new-repo](../images/git_new_repo.png)
+![new-repo](../images/git_newrepo.png)
 
 
 ## Step 2:  Let's add a couple of files
