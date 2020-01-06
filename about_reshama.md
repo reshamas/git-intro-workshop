@@ -1,7 +1,7 @@
 #### Contact Info
 Instructor:  Reshama Shaikh  
 Blog:  https://reshamas.github.io  
-Email:   reshama@wimlds.org  
+Email:   reshama.stat at gmail dot com
 Twitter:  [@reshamas](https://twitter.com/reshamas)
 
 #### About Me
