@@ -13,7 +13,9 @@
 	- Option 1:  [Power Shell](https://www.digitalcitizen.life/simple-questions-what-powershell-what-can-you-do-it)
 	- Option 2:  Git Bash
 	- Option 3:  use Ubuntu (must be installed prior to workshop)  (for advanced users)
-
+- Linux:
+	[Install Git on Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
+	
 ## Step 2:  Install Git
 - Mac:  
 	- [Git](https://git-scm.com/download/mac)
