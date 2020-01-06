@@ -20,7 +20,9 @@ REMINDER:  did you [configure the user name](https://github.com/reshamas/git-int
 - Select `New Repository`
 - Repository name:  `gitclass`
 - Description (optional):  `test project for git`
-- `Public` repos are free
+- Repo type
+	- `Public` repos:  everyone can view, good for sharing work   
+	- `Private` repos:  [unlimited, no charge, with up to 3 collaborators](https://techcrunch.com/2019/01/07/github-free-users-now-get-unlimited-private-repositories/) )
 - Check box for `Initialize this repository with a README` :white_check_mark: :heavy_exclamation_mark:
 - Select green button `Create repository`
 
