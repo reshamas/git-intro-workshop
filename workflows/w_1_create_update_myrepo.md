@@ -31,10 +31,9 @@ REMINDER:  did you [configure the user name](https://github.com/reshamas/git-int
 <p float="left">
   <img src="../images/git_newrepo.png" width="80%" height="80%" style="padding:1px;border:thick solid black;" align="top"> 
   </a>
+</p>
 </kbd>
 
-<p>
-</p>
 
 
 ## Step 2:  Let's add a couple of files
