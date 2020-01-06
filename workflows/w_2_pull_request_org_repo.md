@@ -53,7 +53,7 @@ origin	https://github.com/reshamas/python_advanced.git (push)
 <kbd> git remote add upstream <url> </kbd>  
 >my example
 ```bash
-git remote add upstream https://github.com/WiMLDS/python_advanced.git
+git remote add upstream https://github.com/nyc-pyladies/python_advanced.git
 ```
 
 ## Step 8:  look at remotes
@@ -102,7 +102,7 @@ git branch
 `git checkout practice`
 
 ## Step 14:  create a file
-Note:  We will submit a pull request to the repo and that file will go here:  https://github.com/WiMLDS/python_advanced/tree/master/submissions  
+Note:  We will submit a pull request to the repo and that file will go here:  https://github.com/nyc-pyladies/python_advanced/tree/master/submissions  
 
 - create a folder in the repo with your name here:  `python_advanced/submissions`
 - `cd` into this folder, create a folder with your name
@@ -185,7 +185,7 @@ Select green button "Compare and pull request"
 <kbd> git clone https://github.com/reshamas/python_advanced.git </kbd>  
 <kbd> cd python_advanced </kbd>   
 <kbd> git remote -v </kbd>  
-<kbd> git remote add upstream https://github.com/WiMLDS/python_advanced.git </kbd>  
+<kbd> git remote add upstream https://github.com/nyc-pyladies/python_advanced.git </kbd>  
 <kbd> git remote -v </kbd>  
 <kbd> git pull </kbd>  or <kbd> git pull upstream master </kbd>  
 <kbd> git branch </kbd> <kbd> git branch practice </kbd>  
