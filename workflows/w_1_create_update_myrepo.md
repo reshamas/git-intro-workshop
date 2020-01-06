@@ -27,6 +27,12 @@ REMINDER:  did you [configure the user name](https://github.com/reshamas/git-int
 ![new-repo](../images/git_newrepo.png)
 
 
+
+<p float="left">
+  <img src="../images/git_newrepo.png" width="80%" height="80%" style="padding:1px;border:thick solid black;" align="top"> 
+  </a>
+	
+
 ## Step 2:  Let's add a couple of files
 - Add a Markdown file:  `holiday.md`
   - add a line with an emoji
