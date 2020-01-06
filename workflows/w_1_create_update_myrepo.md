@@ -62,11 +62,22 @@ REMINDER:  did you [configure the user name](https://github.com/reshamas/git-int
 <img src="../images/orphan_black.jpg" width="50%" height="50%" />
 </p>
 
+
 ### Copy URL for cloning
 
 Click on the green button for your forked GitHub repo, and ensure it is showing the url for **Clone with HTTPS**  (other option is "Clone with SSH").  Copy that URL.    <br> 
 <img src="../images/github_clone_button.png" align="left" height="40" width="180" >   <br> <br>
-    
+
+<kbd>
+<p float="left">
+  <img src="../images/git_clone.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
+  </a>
+</p>
+</kbd>
+
+
+
+
 >my example  
 ```text
 https://github.com/reshamas/gitclass.git
