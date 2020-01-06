@@ -90,6 +90,11 @@ Go to your working directory
 ```bash
 cd ~/Desktop/gitsample
 ```
+
+**P**rint **w**** **d**irectory:  
+<kbd> pwd </kbd>
+
+>my example
 ```bash
 pwd
 /Users/reshamashaikh/Desktop/gitsample
