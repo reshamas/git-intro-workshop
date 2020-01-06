@@ -33,6 +33,10 @@ REMINDER:  did you [configure the user name](https://github.com/reshamas/git-int
   </a>
 </kbd>
 
+<p>
+</p>
+
+
 ## Step 2:  Let's add a couple of files
 - Add a Markdown file:  `holiday.md`
   - add a line with an emoji
