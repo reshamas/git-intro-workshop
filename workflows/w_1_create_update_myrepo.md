@@ -134,8 +134,8 @@ origin	https://github.com/reshamas/gitclass.git (push)
 
 
 **Example:**  
-* `upstream` [organization repo]
-* `origin`   [your forked repo]  (will see this later in a fork-repo example)
+* `origin`   [your forked repo] 
+* `upstream` [organization repo]  (will see this later in a fork-repo example)
 
 **Note 1:**  
 * notice you have push and pull access  
