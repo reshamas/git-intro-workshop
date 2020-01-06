@@ -24,12 +24,9 @@ REMINDER:  did you [configure the user name](https://github.com/reshamas/git-int
 - Check box for `Initialize this repository with a README` :white_check_mark: :heavy_exclamation_mark:
 - Select green button `Create repository`
 
-![new-repo](../images/git_newrepo.png)
-
-
 <kbd>
 <p float="left">
-  <img src="../images/git_newrepo.png" width="80%" height="80%" style="padding:1px;border:thick solid black;" align="top"> 
+  <img src="../images/git_newrepo.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
   </a>
 </p>
 </kbd>
