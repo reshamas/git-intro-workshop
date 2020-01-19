@@ -98,7 +98,7 @@ Verify the key has been copied to the clipboard by printing the contents at your
 ### Step 1:  [How to Create SSH Keys with PuTTY on Windows](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/)
 
 
----
+## Mac & Windows Users
 ### Step 2 (for both Mac and Windows users):  Add `ssh` key to GitHub
 - go to your [GitHub account](https://github.com/) (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
 - click on your avatar/profile picture (upper right of screen)
