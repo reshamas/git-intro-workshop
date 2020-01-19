@@ -9,6 +9,7 @@ With SSH authentication you don't need to enter your credentials (GitHub usernam
 - [ ] Configure user
 - [ ] Set up working directory
 
+# STEP 1 
 ## Mac Users
 
 ### Step 1:  Setup `ssh` keys (generate a key pair)
@@ -99,8 +100,7 @@ Verify the key has been copied to the clipboard by printing the contents at your
 
 ---
 
-## Mac & Windows Users
-### Step 2 (for both Mac and Windows users):  Add `ssh` key to GitHub
+# STEP 2 (for both Mac and Windows users):  Add `ssh` key to GitHub
 - go to your [GitHub account](https://github.com/) (create one if you don't have one, and save your user name and password somewhere easily accessible for you.)
 - click on your avatar/profile picture (upper right of screen)
 - go to `Settings`
