@@ -12,7 +12,7 @@
 
 ---
 ## Step 1:  Navigate to repo on GitHub
-test repository:  [https://github.com/DSC-WAV/proj-test](https://github.com/DSC-WAV/proj-test)
+This is the test repository we are practicing with:  [https://github.com/DSC-WAV/proj-test](https://github.com/DSC-WAV/proj-test)
 
 ## Step 2:  Fork repo to your account
 
