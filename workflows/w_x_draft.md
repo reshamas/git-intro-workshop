@@ -138,8 +138,8 @@ cd proj-test
 >my example
 ```bash
 git remote -v
-origin	https://github.com/reshamas/gitclass.git (fetch)
-origin	https://github.com/reshamas/gitclass.git (push)
+origin	https://github.com/reshamas/proj-test.git (fetch)
+origin	https://github.com/reshamas/proj-test.git (push)
 ```
 
 
