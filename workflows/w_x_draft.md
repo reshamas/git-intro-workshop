@@ -11,6 +11,37 @@
 - [ ] Submit a pull request (PR) on GH
 
 ---
+## Step 1:  Navigate to repo on GitHub
+test repository:  [https://github.com/DSC-WAV/proj-test](https://github.com/DSC-WAV/proj-test)
+
+## Step 2:  Fork repo to your account
+
+<kbd>
+<p>
+<img src="../images/dsc_1repo.png" width="90%" height="90%" />
+</p>
+</kbd>
+
+<p>
+The repo is being forked... 
+</p>
+
+<kbd>
+<p>
+<img src="../images/dsc_2forking.png" width="90%" height="90%" />
+</p>
+</kbd>
+
+<p>
+The repo has been forked!
+</p>
+
+<kbd>
+<p>
+<img src="../images/dsc_3forked.png" width="90%" height="90%" />
+</p>
+</kbd>
+
 
 ## Step 3: `clone` the repo from GitHub to our terminal
 
