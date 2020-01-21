@@ -63,13 +63,14 @@ This is the test repository we are practicing with:  [https://github.com/DSC-WAV
 
 
 ### Copy URL for cloning
-We will make a copy of the repo:  
+We will make a copy of the repo.  Click on the green button for your forked GitHub repo.  Copy that URL.    <br> 
+<img src="../images/github_clone_button.png" align="left" height="40" width="180" >   <br> <br>
+
+Select the method:  
 - Option 1:  If you have `ssh` keys set up, select `ssh`
 - Option 2:  If you have *not* set up `ssh` keys, can use the **Clone with HTTPS** 
 
-Click on the green button for your forked GitHub repo.  Copy that URL.    <br> 
-<img src="../images/github_clone_button.png" align="left" height="40" width="180" >   <br> <br>
-
+`Copy` the URL.  
 <kbd>
 <p float="left">
   <img src="../images/dsc_4clone.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
@@ -81,9 +82,9 @@ Click on the green button for your forked GitHub repo.  Copy that URL.    <br>
 </p>
 
 
->example of my repo's ulr  
+>example of my repo's URL
 ```text
-https://github.com/reshamas/gitclass.git
+https://github.com/reshamas/proj-test.git
 ```
 
 ## Step 4:  go to working directory (your local terminal)
@@ -106,20 +107,26 @@ pwd
 <kbd> git clone <url_name> </kbd> 
 >my example
 ```bash
-git clone https://github.com/reshamas/gitclass.git
+git clone https://github.com/reshamas/proj-test.git
 ```
 ```bash
-Cloning into 'gitclass'...
-remote: Counting objects: 3, done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (3/3), done.
+Cloning into 'proj-test'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 15 (delta 5), reused 2 (delta 0), pack-reused 0
+Unpacking objects: 100% (15/15), done.
 ```
 
 ## Step 6:  `cd` into the repo
+List contents of the current directory.  
+<kbd> ls </kbd>
+
+Change directory into the repo directory we just cloned.  
 <kbd> cd <repo_name> </kbd>
 >my example
 ```bash
-cd gitclass 
+cd proj-test
 ```
 
 ## Step 7:  look at remotes
