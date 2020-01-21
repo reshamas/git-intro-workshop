@@ -52,7 +52,7 @@ This is the test repository we are practicing with:  [https://github.com/DSC-WAV
 </kbd>
 
 
-## Step 3: `clone` the repo from GitHub to our terminal
+## Step 3: Get URL to `clone` the repo from GitHub to our terminal
 
 **Q:  What is cloning?**  
 **A:  Making a copy of something.**
@@ -104,7 +104,7 @@ pwd
 /Users/reshamashaikh/Desktop/gitsample
 ```  
 
-## Step 5:  clone the repo  
+## Step 5:  Clone the repo  
 <kbd> git clone <url_name> </kbd> 
 >my example
 ```bash
@@ -130,7 +130,7 @@ Change directory into the repo directory we just cloned.
 cd proj-test
 ```
 
-## Step 7:  look at remotes
+## Step 7:  Look at remotes
 **Q:  What is a remote?**  
 **A:  **Remotes** are copies of a repo on another computer **(or on a service like GitHub)****
 
@@ -142,7 +142,7 @@ origin	https://github.com/reshamas/proj-test.git (fetch)
 origin	https://github.com/reshamas/proj-test.git (push)
 ```
 
-## Step 8:  add a remote
+## Step 8:  Add a remote
 We want to make a connection to the "organizational" repo by adding another "remote."
 
 syntax:  
@@ -160,6 +160,15 @@ Let's see if the "remote" has been added:
 git remote -v
 ```
 
+This should yield output in the following format:  
+```bash
+origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+upstream  https://github.com/DSC-WAV/ORIGINAL_REPOSITORY.git (fetch)
+upstream  https://github.com/DSC-WAV/ORIGINAL_REPOSITORY.git (push)
+```
+
+>my example
 ```bash
 origin	https://github.com/reshamas/proj-test.git (fetch)
 origin	https://github.com/reshamas/proj-test.git (push)
@@ -177,7 +186,7 @@ upstream	https://github.com/DSC-WAV/proj-test.git (push)
 **Note 2:**
 * to remove a remote:  <kbd> git remote rm <remote_name> </kbd>
 
-## Step 8:  update a repo
+## Step 8:  Update a repo (or "syncing a repo") [done regularly]
 This step copies changes from a remote repository to a local repository.  
 :key:  Do this **before starting work in a repository so you have the most up-to-date-changes.**   
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
