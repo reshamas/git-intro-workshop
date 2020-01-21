@@ -254,6 +254,9 @@ Let's confirm that the file has been created
 
 Let's see what the file contains:  
 <kbd> cat requirements.txt </kbd>
+```bash
+pandas==0.23.0
+```
 
 <kbd>  ls </kbd>  
 <kbd> mkdir data </kbd>
