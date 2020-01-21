@@ -202,7 +202,7 @@ This step copies changes from a remote repository to a local repository.
 - More details can be found here:  [branches](../git_6_branches.md)
 
 
-## Step 9:  list branches
+## Step 10:  list branches
 <kbd> git branch </kbd>  
 >my example
 ```git
@@ -211,13 +211,13 @@ git branch
 ```
 
  
-## Step 10:  create a working branch
+## Step 11:  create a working branch
 <kbd> git branch <branch_name> </kbd>
 	
 >my example  
 `git branch issue001`
 
-## Step 11:  list branches
+## Step 12:  list branches
 <kbd> git branch </kbd>  
 >my example
 ```git
@@ -229,7 +229,17 @@ git branch
 ## Step 12:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
 >my example  
-`git checkout practice`
+`git checkout issue001`
+
+**NOTE:** You can create and `checkout` a new branch in one step:  
+<kbd>
+git checkout -b <branch_name>
+	</kbd>
+	
+>my example
+```bash
+git checkout -b issue001
+```
 
 
 ## Step 13:  create a file
