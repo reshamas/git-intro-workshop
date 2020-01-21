@@ -258,39 +258,6 @@ Let's see what the file contains:
 pandas==0.23.0
 ```
 
-<kbd>  ls </kbd>  
-<kbd> mkdir data </kbd>
-<kbd> touch data/README.md </kbd>  
-
-notebooks
-data
-scripts
-docs
-requirements.txt
-
-**NOTE:**  You can use RStudio editor and add some text to the README.md file
-
-<kbd> touch mercury.md </kbd>  
-
-- [ ] Update a repo 
-
->my example
-```bash
-ls
-touch mercury.md
-```
-```bash
-ls
-total 8
--rw-r--r--  1   32 Nov 22 09:39 README.md
-% touch mercury.md
-% ls
-total 8
--rw-r--r--  1   32 Nov 22 09:39 README.md
--rw-r--r--  1    0 Nov 22 09:49 mercury.md
-
-	mercury.md
-```
 
 ---
 # :arrow_right_hook: Git Workflow
@@ -412,3 +379,41 @@ If you have completed a task or solved an "issue", and the PR (pull request) has
 git checkout -D <branch_name>
 	</kbd>
 	
+
+
+
+---
+
+<kbd>  ls </kbd>  
+<kbd> mkdir data </kbd>
+<kbd> touch data/README.md </kbd>  
+
+notebooks
+data
+scripts
+docs
+requirements.txt
+
+**NOTE:**  You can use RStudio editor and add some text to the README.md file
+
+<kbd> touch mercury.md </kbd>  
+
+- [ ] Update a repo 
+
+>my example
+```bash
+ls
+touch mercury.md
+```
+```bash
+ls
+total 8
+-rw-r--r--  1   32 Nov 22 09:39 README.md
+% touch mercury.md
+% ls
+total 8
+-rw-r--r--  1   32 Nov 22 09:39 README.md
+-rw-r--r--  1    0 Nov 22 09:49 mercury.md
+
+	mercury.md
+```
