@@ -146,9 +146,9 @@ origin	https://github.com/reshamas/proj-test.git (push)
 We want to make a connection to the "organizational" repo by adding another "remote."
 
 syntax:  
-```bash
+<kbd>
 git remote add upstream https://github.com/DSC-WAV/ORIGINAL_REPOSITORY.git
-```
+</kbd>
 
 >my example 
 ```bash
@@ -156,9 +156,9 @@ git remote add upstream https://github.com/DSC-WAV/proj-test.git
 ```
 
 Let's see if the "remote" has been added:  
-```bash
+<kbd>
 git remote -v
-```
+</kbd>
 
 This should yield output in the following format:  
 ```bash
