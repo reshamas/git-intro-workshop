@@ -197,6 +197,14 @@ This step copies changes from a remote repository to a local repository.
 
 - <kbd> git pull upstream master</kbd> 
 
+<kbd>
+<p float="left">
+  <img src="../images/dsc_workflow.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
+  
+</p>
+</kbd>
+
+
 ---
 
 # :arrow_right_hook: Why use branches?
