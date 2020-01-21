@@ -63,13 +63,16 @@ This is the test repository we are practicing with:  [https://github.com/DSC-WAV
 
 
 ### Copy URL for cloning
+We will make a copy of the repo:  
+Option 1:  If you have `ssh` keys set up, select `ssh`
+Option 2:  If you have not set up `ssh` keys, can use the **Clone with HTTPS** 
 
-Click on the green button for your forked GitHub repo, and ensure it is showing the url for **Clone with HTTPS**  (other option is "Clone with SSH").  Copy that URL.    <br> 
+Click on the green button for your forked GitHub repo.  Copy that URL.    <br> 
 <img src="../images/github_clone_button.png" align="left" height="40" width="180" >   <br> <br>
 
 <kbd>
 <p float="left">
-  <img src="../images/git_clone.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
+  <img src="../images/dsc_4clone.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
   </a>
 </p>
 </kbd>
