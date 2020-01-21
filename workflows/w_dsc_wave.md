@@ -246,9 +246,20 @@ git checkout -b issue001
 
 ## Step 13:  create a file
 <kbd>  ls </kbd>  
-<kbd> touch <file_name> </kbd>  
-	
+<kbd> mkdir data </kbd>
+<kbd> touch data/README.md </kbd>  
+
+notebooks
+data
+scripts
+docs
+requirements.txt
+
+**NOTE:**  You can use RStudio editor and add some text to the README.md file
+
 <kbd> touch mercury.md </kbd>  
+
+- [ ] Update a repo 
 
 >my example
 ```bash
