@@ -14,7 +14,7 @@
 ## Step 1:  Navigate to repo on GitHub
 This is the test repository we are practicing with:  [https://github.com/DSC-WAV/proj-test](https://github.com/DSC-WAV/proj-test)
 
-## Step 2:  Fork repo to your account
+## Step 2:  Fork repo to your account [only done once]
 
 ### Step 2a:  Find the 'fork' option
 
@@ -142,13 +142,37 @@ origin	https://github.com/reshamas/proj-test.git (fetch)
 origin	https://github.com/reshamas/proj-test.git (push)
 ```
 
+## Step 8:  add a remote
+We want to make a connection to the "organizational" repo by adding another "remote."
+
+syntax:  
+```bash
+git remote add upstream https://github.com/DSC-WAV/ORIGINAL_REPOSITORY.git
+```
+
+>my example 
+```bash
+git remote add upstream https://github.com/DSC-WAV/proj-test.git
+```
+
+Let's see if the "remote" has been added:  
+```bash
+git remote -v
+```
+
+```bash
+origin	https://github.com/reshamas/proj-test.git (fetch)
+origin	https://github.com/reshamas/proj-test.git (push)
+upstream	https://github.com/DSC-WAV/proj-test.git (fetch)
+upstream	https://github.com/DSC-WAV/proj-test.git (push)
+```
 
 **Example:**  
 * `origin`   [your forked repo] 
-* `upstream` [organization repo]  (will see this later in a fork-repo example)
+* `upstream` [organization repo] 
 
 **Note 1:**  
-* notice you have push and pull access  
+* notice you have `fetch` and `push` access  
 
 **Note 2:**
 * to remove a remote:  <kbd> git remote rm <remote_name> </kbd>
