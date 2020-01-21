@@ -1,14 +1,16 @@
-# Workflow x:  Clone, Fork and Submit PR
+# Workflow for DSC-WAV:  Clone, Fork and Submit PR
 
 #### This is your checklist:
-- [ ] Create a repo on GitHub (GH)
+- [ ] Fork a repo on GitHub (GH)
 - [ ] Clone a repo
-- [ ] Update a repo 
 - [ ] Look at remotes
 - [ ] Create a branch
 - [ ] Switch to another branch
+- [ ] Send a change
 - [ ] Push changes to GH from terminal
 - [ ] Submit a pull request (PR) on GH
+- [ ] Update a repo 
+
 
 ---
 ## Step 1:  Navigate to repo on GitHub
