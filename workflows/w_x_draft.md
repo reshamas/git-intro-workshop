@@ -71,10 +71,11 @@ Select the method:
 - Option 2:  If you have *not* set up `ssh` keys, can use the **Clone with HTTPS** 
 
 `Copy` the URL.  
+
 <kbd>
 <p float="left">
   <img src="../images/dsc_4clone.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
-  </a>
+  
 </p>
 </kbd>
 
