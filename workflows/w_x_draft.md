@@ -186,15 +186,12 @@ upstream	https://github.com/DSC-WAV/proj-test.git (push)
 **Note 2:**
 * to remove a remote:  <kbd> git remote rm <remote_name> </kbd>
 
-## Step 8:  Update a repo (or "syncing a repo") [done regularly]
+## Step 9:  Update a repo (or "syncing a repo") [done regularly]
 This step copies changes from a remote repository to a local repository.  
 :key:  Do this **before starting work in a repository so you have the most up-to-date-changes.**   
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
-- <kbd> git pull </kbd> 
-- create `name.py` file on GitHub 
-- <kbd> git pull </kbd> to sync repo
-
+- <kbd> git pull upstream master</kbd> 
 
 ---
 
@@ -218,7 +215,7 @@ git branch
 <kbd> git branch <branch_name> </kbd>
 	
 >my example  
-`git branch practice`
+`git branch issue001`
 
 ## Step 11:  list branches
 <kbd> git branch </kbd>  
@@ -226,7 +223,7 @@ git branch
 ```git
 git branch
 * master
-  practice
+  issue001
 ```
 
 ## Step 12:  switch to working branch
@@ -373,20 +370,9 @@ My url is:  https://github.com/reshamas/gitclass
 Select green button "Compare and pull request"  
 <img src="../images/pull_request_button.png" align="left" height="40" width="180" >   <br> <br>
 
----
-
-## Summary of Steps
-<kbd> cd ~/Desktop/gitsample </kbd>  
-<kbd>  pwd </kbd>   
-<kbd> git clone https://github.com/reshamas/gitclass.git </kbd>   
-<kbd> cd gitclass </kbd>   
-<kbd> git remote -v </kbd>  
-<kbd> git pull </kbd>  
-<kbd> git branch </kbd> <kbd> git branch practice </kbd>  
-<kbd> git branch </kbd> <kbd> git checkout practice </kbd>  
-<kbd>  ls </kbd>  
-<kbd> touch mercury.md </kbd>  
-<kbd>  ls </kbd>  
-<kbd>  git status </kbd> <kbd>  git add mercury.md </kbd>  		  
-<kbd>  git status </kbd> <kbd>  git commit -m 'adding first planet' </kbd>  		  
-<kbd>  git status </kbd> <kbd>  git push origin practice</kbd>  
+## Step x:  Clean-up (delete branch)
+If you have completed a task or solved an "issue", and the PR (pull request) has been merged, you can delete the branch.  
+<kbd>
+git checkout -D <branch_name>
+	</kbd>
+	
