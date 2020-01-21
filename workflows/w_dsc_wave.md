@@ -245,6 +245,16 @@ git checkout -b issue001
 
 
 ## Step 13:  create a file
+In this step, we are creating a new file called "requirements.txt" and adding one line of text to it which is "pandas=0.23.0"  
+```bash
+echo "pandas==0.23.0" >> requirements.txt
+```
+Let's confirm that the file has been created
+<kbd> ls </kbd>
+
+Let's see what the file contains:  
+<kbd> cat requirements.txt </kbd>
+
 <kbd>  ls </kbd>  
 <kbd> mkdir data </kbd>
 <kbd> touch data/README.md </kbd>  
