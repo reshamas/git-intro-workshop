@@ -16,14 +16,21 @@ test repository:  [https://github.com/DSC-WAV/proj-test](https://github.com/DSC-
 
 ## Step 2:  Fork repo to your account
 
+### Step 2a:  Find the 'fork' option
+
 <kbd>
 <p>
 <img src="../images/dsc_1repo.png" width="90%" height="90%" />
 </p>
 </kbd>
 
+
+
 <p>
-The repo is being forked... 
+
+
+### Step 2b:  The repo is being forked... 
+
 </p>
 
 <kbd>
@@ -33,7 +40,9 @@ The repo is being forked...
 </kbd>
 
 <p>
-The repo has been forked!
+	
+### Step 2c:  The repo has been forked!
+
 </p>
 
 <kbd>
