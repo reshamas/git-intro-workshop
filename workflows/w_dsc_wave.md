@@ -1,7 +1,7 @@
 # Workflow for DSC-WAV:  Clone, Fork and Submit PR
 
 #### This is your checklist:
-- [ ] Navigate to private repo on GitHub (GH)
+- [ ] Navigate to (private) repo on GitHub (GH)
 - [ ] Fork a repo on GitHub
 - [ ] Clone a repo
 - [ ] Look at remotes
