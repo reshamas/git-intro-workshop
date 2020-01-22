@@ -254,19 +254,6 @@ git checkout -b issue001
 ```
 
 
-## Step 13:  create a file
-In this step, we are creating a new file called "requirements.txt" and adding one line of text to it which is "pandas=0.23.0"  
-```bash
-echo "pandas==0.23.0" >> requirements.txt
-```
-Let's confirm that the file has been created
-<kbd> ls </kbd>
-
-Let's see what the file contains:  
-<kbd> cat requirements.txt </kbd>
-```bash
-pandas==0.23.0
-```
 
 
 ---
@@ -286,15 +273,31 @@ pandas==0.23.0
 <img src="../images/git_shopping_cart.jpg" width="99%" height="99%" />
 </p>
 
+## Step 13:  create a file
+In this step, we are creating a new file called "requirements.txt" and adding one line of text to it which is "pandas=0.23.0"  
+```bash
+echo "pandas==0.23.0" >> requirements.txt
+```
+Let's confirm that the file has been created
+<kbd> ls </kbd>
+
+Let's see what the file contains:  
+<kbd> cat requirements.txt </kbd>
+```bash
+pandas==0.23.0
+```
+
+
 ## Step 14:  get status of repo
 <kbd> git status </kbd>  
 >my example
 ```bash
-% git status
-On branch practice
+On branch issue001
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	mercury.md
+
+        requirements.txt
+
 nothing added to commit but untracked files present (use "git add" to track)
 ```
     
@@ -303,8 +306,9 @@ nothing added to commit but untracked files present (use "git add" to track)
 	
 >my example  
 ```bash
-git add mercury.md 
+git add requirements.txt
 ```
+
 
 **Note:**  to `add` a file is to begin tracking it:  
 - adds a change in the working directory to the staging area
@@ -312,14 +316,15 @@ git add mercury.md
 
 ## Step 16:  get status of repo
 <kbd> git status </kbd>  
+
 >my example
-```bash
-% git status
-On branch practice
+```
+git status
+On branch issue001
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	new file:   mercury.md
+        new file:   requirements.txt
 ```
 
 ## Step 17:  commit a file  
@@ -327,14 +332,14 @@ Changes to be committed:
 	
 >my example
 ```bash
-git commit -m 'adding first planet'
+git commit -m 'adding file for packages or libraries needed'
 ```
 	
 ```bash
-% git commit -m 'adding first planet'
-[practice 3950dd9] adding first planet
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 mercury.md
+$ git commit -m 'adding file for packages or libraries needed'
+[issue001 e4bb0d1] adding file for packages or libraries needed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 requirements.txt
 ```
 **Note:**  to `commit` a file is to "log the change":  
 - changes are recorded in Git (interaction is with local repo)
@@ -343,31 +348,36 @@ git commit -m 'adding first planet'
 <kbd> git status </kbd>  
 >my example
 ```bash
-% git status
-On branch practice
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	new file:   mercury.md
+$ git status
+On branch issue001
+nothing to commit, working tree clean
 ```
 
 ## Step 19:  push changes to your 'working branch' 
-<kbd> git push <remote_name> <branch_wip> </kbd>  
+<kbd> git push <remote_name> <branch_name> </kbd>  
 	
 >my example
 ```bash
-git push origin practice
+git push origin issue001
 ```	
 
 ```bash
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
+$ git push origin issue001
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
 Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 273 bytes | 0 bytes/s, done.
+Writing objects: 100% (3/3), 393 bytes | 393.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/reshamas/gitclass.git
- * [new branch]      practice -> practice
+remote:
+remote: Create a pull request for 'issue001' on GitHub by visiting:
+remote:      https://github.com/reshamas/proj-test/pull/new/issue001
+remote:
+To github.com:reshamas/proj-test.git
+ * [new branch]      issue001 -> issue001
+$
  ```
+
 **Note:**  to `push` a "commit" is to "finalize the change":  
 - changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
 
@@ -381,7 +391,16 @@ Go to GitHub and refresh your browser.
 My url is:  https://github.com/reshamas/gitclass  
 
 Select green button "Compare and pull request"  
+<kbd>
 <img src="../images/pull_request_button.png" align="left" height="40" width="180" >   <br> <br>
+</kbd>
+
+
+<kbd>
+	<img src="../images/dsc_pr.png" width="99%" height="99%" />
+</kbd>
+
+
 
 ## Step x:  Clean-up (delete branch)
 If you have completed a task or solved an "issue", and the PR (pull request) has been merged, you can delete the branch.  
