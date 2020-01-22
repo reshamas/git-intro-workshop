@@ -238,7 +238,7 @@ git branch
   issue001
 ```
 
-## Step 12:  switch to working branch
+## Step 13:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
 >my example  
 `git checkout issue001`
@@ -273,7 +273,7 @@ git checkout -b issue001
 <img src="../images/git_shopping_cart.jpg" width="99%" height="99%" />
 </p>
 
-## Step 13:  create a file
+## Step 14:  create a file
 In this step, we are creating a new file called "requirements.txt" and adding one line of text to it which is "pandas=0.23.0"  
 ```bash
 echo "pandas==0.23.0" >> requirements.txt
@@ -288,7 +288,7 @@ pandas==0.23.0
 ```
 
 
-## Step 14:  get status of repo
+## Step 15:  get status of repo
 <kbd> git status </kbd>  
 >my example
 ```bash
@@ -301,7 +301,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
     
-## Step 15:  add/stage a file
+## Step 16:  add/stage a file
 <kbd> git add <file_name> </kbd>   
 	
 >my example  
@@ -314,7 +314,7 @@ git add requirements.txt
 - adds a change in the working directory to the staging area
 - tells Git that you want to include updates to a particular file in the next commit
 
-## Step 16:  get status of repo
+## Step 76:  get status of repo
 <kbd> git status </kbd>  
 
 >my example
@@ -327,7 +327,7 @@ Changes to be committed:
         new file:   requirements.txt
 ```
 
-## Step 17:  commit a file  
+## Step 18:  commit a file  
 <kbd> git commit -m 'message' </kbd>  
 	
 >my example
@@ -344,7 +344,7 @@ $ git commit -m 'adding file for packages or libraries needed'
 **Note:**  to `commit` a file is to "log the change":  
 - changes are recorded in Git (interaction is with local repo)
 
-## Step 18:  get status of repo
+## Step 19:  get status of repo
 <kbd> git status </kbd>  
 >my example
 ```bash
@@ -353,7 +353,7 @@ On branch issue001
 nothing to commit, working tree clean
 ```
 
-## Step 19:  push changes to your 'working branch' 
+## Step 20:  push changes to your 'working branch' 
 <kbd> git push <remote_name> <branch_name> </kbd>  
 	
 >my example
@@ -381,12 +381,12 @@ $
 **Note:**  to `push` a "commit" is to "finalize the change":  
 - changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
 
-## Step 20:  look at files on working branch (on GitHub)
+## Step 21:  look at files on working branch (on GitHub)
 **Note:**  we are on GitHub in browser
 - go to repo
 - may want to toggle "Branch"
 	
-## Step 21:  submit pull request (on GitHub)
+## Step 22:  submit pull request (on GitHub)
 Go to GitHub and refresh your browser.  
 My url is:  https://github.com/reshamas/gitclass  
 
@@ -401,12 +401,13 @@ Select green button "Compare and pull request"
 </kbd>
 
 
+---
 
 ## Step x:  Clean-up (delete branch)
 If you have completed a task or solved an "issue", and the PR (pull request) has been merged, you can delete the branch.  
 <kbd>
 git checkout -D <branch_name>
-	</kbd>
+</kbd>
 	
 
 
