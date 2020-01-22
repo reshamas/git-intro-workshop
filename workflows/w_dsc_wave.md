@@ -185,7 +185,7 @@ upstream	https://github.com/DSC-WAV/proj-test.git (push)
 * `upstream` [organization repo] 
 
 **Note 1:**  
-* notice you have `fetch` and `push` access  
+* notice you have `fetch` (or `pull`) and `push` access  
 
 **Note 2:**
 * to remove a remote:  <kbd> git remote rm <remote_name> </kbd>
