@@ -6,8 +6,6 @@
 - [ ] Clone a repo
 - [ ] Look at remotes
 - [ ] Add a remote
-- [ ] Create a branch
-- [ ] Switch to another branch
 - [ ] Send a change
 - [ ] Push changes to GH from terminal
 - [ ] Submit a pull request (PR) on GH
@@ -207,54 +205,6 @@ This step copies changes from a remote repository to a local repository.
 
 ---
 
-# :arrow_right_hook: Why use branches?
-- **Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
-- Can work on different parts in the codebase, or "features" or "web page updates"
-    - create a separate *history* for each new *feature*
-- More details can be found here:  [branches](../git_6_branches.md)
-
-
-## Step 10:  list branches
-<kbd> git branch </kbd>  
->my example
-```git
-git branch
-* master
-```
-
- 
-## Step 11:  create a working branch
-<kbd> git branch <branch_name> </kbd>
-	
->my example  
-`git branch issue001`
-
-## Step 12:  list branches
-<kbd> git branch </kbd>  
->my example
-```git
-git branch
-* master
-  issue001
-```
-
-## Step 13:  switch to working branch
-<kbd> git checkout <branch_name> </kbd>  
->my example  
-`git checkout issue001`
-
-**NOTE:** You can create and `checkout` a new branch in one step:  
-<kbd>
-git checkout -b <branch_name>
-	</kbd>
-	
->my example
-```bash
-git checkout -b issue001
-```
-
-
-
 
 ---
 # :arrow_right_hook: Git Workflow
@@ -275,9 +225,17 @@ git checkout -b issue001
 
 ## Step 14:  create a file
 In this step, we are creating a new file called "requirements.txt" and adding one line of text to it which is "pandas=0.23.0"  
+
+Option 1:  use RStudio editor  
+- open a blank file
+- add one line: `echo "pandas==0.23.0" >> requirements.txt`
+- save file
+
+Option 2:  use command line with syntax `echo`  
 ```bash
 echo "pandas==0.23.0" >> requirements.txt
 ```
+
 Let's confirm that the file has been created
 <kbd> ls </kbd>
 
@@ -292,13 +250,17 @@ pandas==0.23.0
 <kbd> git status </kbd>  
 >my example
 ```bash
-On branch issue001
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
         requirements.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
+$
 ```
     
 ## Step 16:  add/stage a file
@@ -319,12 +281,15 @@ git add requirements.txt
 
 >my example
 ```
-git status
-On branch issue001
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
         new file:   requirements.txt
+$
 ```
 
 ## Step 18:  commit a file  
@@ -332,14 +297,19 @@ Changes to be committed:
 	
 >my example
 ```bash
-git commit -m 'adding file for packages or libraries needed'
+git commit -m 'adding file for required libraries'
 ```
 	
 ```bash
-$ git commit -m 'adding file for packages or libraries needed'
-[issue001 e4bb0d1] adding file for packages or libraries needed
- 1 file changed, 1 insertion(+)
- create mode 100644 requirements.txt
+$ git commit -m 'adding file for required libraries'
+[master 38cfd60] adding file for required libraries
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
 ```
 **Note:**  to `commit` a file is to "log the change":  
 - changes are recorded in Git (interaction is with local repo)
@@ -349,32 +319,35 @@ $ git commit -m 'adding file for packages or libraries needed'
 >my example
 ```bash
 $ git status
-On branch issue001
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
 nothing to commit, working tree clean
+$
 ```
 
 ## Step 20:  push changes to your 'working branch' 
+**NOTE:**  by default, there is always a "master branch" in every repo and forked repo.  
+
 <kbd> git push <remote_name> <branch_name> </kbd>  
 	
 >my example
 ```bash
-git push origin issue001
+git push origin master
 ```	
 
 ```bash
-$ git push origin issue001
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
 Delta compression using up to 4 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 393 bytes | 393.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-remote:
-remote: Create a pull request for 'issue001' on GitHub by visiting:
-remote:      https://github.com/reshamas/proj-test/pull/new/issue001
-remote:
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 687 bytes | 343.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
 To github.com:reshamas/proj-test.git
- * [new branch]      issue001 -> issue001
+   ec3d384..38cfd60  master -> master
 $
  ```
 
