@@ -142,9 +142,9 @@ cd proj-test
 <kbd> git remote -v </kbd>
 >my example
 ```bash
-git remote -v
-origin	https://github.com/reshamas/proj-test.git (fetch)
-origin	https://github.com/reshamas/proj-test.git (push)
+$ git remote -v
+origin  git@github.com:reshamas/proj-test.git (fetch)
+origin  git@github.com:reshamas/proj-test.git (push)
 ```
 
 ## Step 8:  Add a remote
