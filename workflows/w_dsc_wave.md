@@ -206,10 +206,6 @@ This step copies changes from a remote repository to a local repository.
 </p>
 </kbd>
 
-
----
-
-
 ---
 # :arrow_right_hook: Git Workflow
 
