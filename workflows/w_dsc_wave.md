@@ -383,6 +383,9 @@ git checkout -D <branch_name>
 </kbd>
 	
 
+# example of undo "git add"
+# example of undo "git commit"
+# best practices to avoid merge conflict
 
 
 ---
