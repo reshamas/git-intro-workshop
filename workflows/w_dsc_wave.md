@@ -87,7 +87,7 @@ Select the method:
 
 >example of my repo's URL
 ```text
-https://github.com/reshamas/proj-test.git
+git@github.com:reshamas/proj-test.git
 ```
 
 ## Step 4:  go to working directory (your local terminal)
@@ -110,15 +110,18 @@ pwd
 <kbd> git clone <url_name> </kbd> 
 >my example
 ```bash
-git clone https://github.com/reshamas/proj-test.git
+git clone git@github.com:reshamas/proj-test.git
 ```
 ```bash
+$ git clone git@github.com:reshamas/proj-test.git
 Cloning into 'proj-test'...
-remote: Enumerating objects: 15, done.
-remote: Counting objects: 100% (15/15), done.
-remote: Compressing objects: 100% (15/15), done.
-remote: Total 15 (delta 5), reused 2 (delta 0), pack-reused 0
-Unpacking objects: 100% (15/15), done.
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 20 (delta 6), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (20/20), 478.68 KiB | 3.42 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+$
 ```
 
 ## Step 6:  `cd` into the repo
@@ -149,12 +152,12 @@ We want to make a connection to the "organizational" repo by adding another "rem
 
 syntax:  
 <kbd>
-git remote add upstream https://github.com/DSC-WAV/ORIGINAL_REPOSITORY.git
+git remote add upstream git@github.com:DSC-WAV/proj-test.git
 </kbd>
 
 >my example 
 ```bash
-git remote add upstream https://github.com/DSC-WAV/proj-test.git
+git remote add upstream git@github.com:DSC-WAV/proj-test.git
 ```
 
 Let's see if the "remote" has been added:  
@@ -172,10 +175,11 @@ upstream  https://github.com/DSC-WAV/ORIGINAL_REPOSITORY.git (push)
 
 >my example
 ```bash
-origin	https://github.com/reshamas/proj-test.git (fetch)
-origin	https://github.com/reshamas/proj-test.git (push)
-upstream	https://github.com/DSC-WAV/proj-test.git (fetch)
-upstream	https://github.com/DSC-WAV/proj-test.git (push)
+$ git remote -v
+origin  git@github.com:reshamas/proj-test.git (fetch)
+origin  git@github.com:reshamas/proj-test.git (push)
+upstream        git@github.com:DSC-WAV/proj-test.git (fetch)
+upstream        git@github.com:DSC-WAV/proj-test.git (push)
 ```
 
 **Example:**  
