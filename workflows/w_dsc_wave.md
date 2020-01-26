@@ -276,7 +276,7 @@ git add requirements.txt
 - adds a change in the working directory to the staging area
 - tells Git that you want to include updates to a particular file in the next commit
 
-## Step 76:  get status of repo
+## Step 17:  get status of repo
 <kbd> git status </kbd>  
 
 >my example
@@ -376,19 +376,172 @@ Select green button "Compare and pull request"
 
 ---
 
-## Step x:  Clean-up (delete branch)
-If you have completed a task or solved an "issue", and the PR (pull request) has been merged, you can delete the branch.  
-<kbd>
-git checkout -D <branch_name>
-</kbd>
-	
+# Section B: Let's practice "undo" of an "git add file"
+
+## Step B1:  Let's add a file
+
+Option 1:  use RStudio editor to create a new file.  
+Option 2:  use command line to create a new file.  
+```bash
+touch apple.py
+```
+
+## Step B2:  Check status
+<kbd> git status </kbd>
+
+```bash
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        apple.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+$
+```
+
+## Step B3:  Let's add the file
+<kbd> git add apple.py </kbd>
+
+## Step B4:  Check status
+<kbd> git status </kbd>
+
+```bash
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+        new file:   apple.py
+$
+```
+# example of undo "git add"
+# example of undo "git commit"
+# best practices to avoid merge conflict
+
+## Step B4:  :stop:  Oops, we don't want to `add` that file.  Let's undo that command
+**NOTE:*** Notice how in the syntax above, it tells us to use "git reset HEAD <file>..." to unstage.  So, let's do that
+
+syntax:  
+<kbd> git reset HEAD <file> </kbd>
+
+>our example
+<kbd> git reset HEAD apple.py </kbd>
+
+## Step B5:  Check status.  The file name "apple.py" should go back to red text now.  
+
+```bash
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        apple.py
+nothing added to commit but untracked files present (use "git add" to track)
+$
+```
+
+---
+
+# Section C: Let's practice "undo" of an "git commit"
+
+## Step C1:  Let's work with the file "apple.py"
+Note:  we have it already from the previous step. 
+
+## Step C2:  Check status
+<kbd> git status </kbd>
+
+```bash
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        apple.py
+nothing added to commit but untracked files present (use "git add" to track)
+$
+```
+
+## Step C3:  Let's add the file
+<kbd> git add apple.py </kbd>
+
+## Step C4:  Check status
+<kbd> git status </kbd>
+
+```bash
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+        new file:   apple.py
+$
+```
+
+## Step C5:  Commit the file
+syntax:  
+<kbd> git commit -m "message" </kbd>
+
+>our example
+<kbd> git commit -m "adding apple file' </kbd>
+
+```bash
+$ git commit -m "adding apple file"
+[master 2c4979a] adding apple file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 apple.py
+$
+```
+
+## Step C6:  Check status
+<kbd> git status </kbd>
+
+```bash
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+$
+```
+
+## Step B4:  :stop:  Oops, we don't want that `commit`.  Let's undo it.
+
+syntax:  
+<kbd> git revert HEAD~1 </kbd>
+
+>our example
+<kbd> git reset HEAD~1 </kbd>
+
+## Step B5:  Check status.  The file name "apple.py" should go back to red text now.  
+
+```bash
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        apple.py
+nothing added to commit but untracked files present (use "git add" to track)
+$
+```
+
+
+---
+
+
+---
 
 # example of undo "git add"
 # example of undo "git commit"
 # best practices to avoid merge conflict
 
 
----
 
 <kbd>  ls </kbd>  
 <kbd> mkdir data </kbd>
