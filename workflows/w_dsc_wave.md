@@ -418,9 +418,7 @@ Changes to be committed:
         new file:   apple.py
 $
 ```
-# example of undo "git add"
-# example of undo "git commit"
-# best practices to avoid merge conflict
+
 
 ## Step B4:  :stop:  Oops, we don't want to `add` that file.  Let's undo that command
 **NOTE:*** Notice how in the syntax above, it tells us to use "git reset HEAD <file>..." to unstage.  So, let's do that
