@@ -206,6 +206,9 @@ This step copies changes from a remote repository to a local repository.
 
 - <kbd> git pull upstream master</kbd> 
 
+
+**Note:**  `master` represents the "branch" name which is the default branch name in all repositories.  
+
 <kbd>
 <p float="left">
   <img src="../images/dsc_workflow.png" width="95%" height="95%" style="padding:1px;border:thick solid black;" align="top"> 
@@ -221,9 +224,9 @@ This step copies changes from a remote repository to a local repository.
 |-------|---------------------------| -----|------------------|
 |  1    | `git add <filename>`      | begin tracking a file | adds a change in the working directory to the staging area; tells Git that you want to include updates to a particular file in the next commit.  |    
 |  2    | `git commit -m "message"` | log the change | changes are recorded in Git (interaction is with local repo) |  
-|  3    | `git push`                | finalize the change | changes are pushed from Git (local, terminal) to GitHub (browser account, remote) | 
+|  3    | `git push origin master`  | finalize the change | changes are pushed from Git (local, terminal) to GitHub (browser account, remote) | 
  
-**Note:**  It is better to make many commits with smaller changes rather than of one commit with massive changes: small commits are easier to read and review.
+**:key:**  It is better to make many commits with smaller changes rather than of one commit with massive changes: small commits are easier to read and review.
 
 
 <p>
