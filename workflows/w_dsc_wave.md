@@ -389,13 +389,17 @@ Select green button:  "Creaet pull request"
 
 # Section B: Let's practice "undo" of an "git add file"
 
-## Step B1:  Let's add a file
+## Step B1:  Let's create a file
 
 Option 1:  use RStudio editor to create a new file.  
 Option 2:  use command line to create a new file.  
 ```bash
 touch apple.py
 ```
+
+Confirm the file has been created:  
+syntax:  
+<kbd> ls </kbd>
 
 ## Step B2:  Check status
 <kbd> git status </kbd>
@@ -457,26 +461,38 @@ $
 
 # Section C: Let's practice "undo" of an "git commit"
 
-## Step C1:  Let's work with the file "apple.py"
-Note:  we have it already from the previous step. 
+## Step C1:  Let's create a file
+Option 1:  use RStudio editor to create a new file.  
+Option 2:  use command line to create a new file.  
+```bash
+touch banana.py
+```
+
+Confirm the file has been created:  
+syntax:  
+<kbd> ls </kbd>
 
 ## Step C2:  Check status
 <kbd> git status </kbd>
 
 ```bash
+$ touch banana.py
 $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
+
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
         apple.py
+        banana.py
+
 nothing added to commit but untracked files present (use "git add" to track)
 $
 ```
 
 ## Step C3:  Let's add the file
-<kbd> git add apple.py </kbd>
+<kbd> git add banana.py </kbd>
 
 ## Step C4:  Check status
 <kbd> git status </kbd>
@@ -485,9 +501,15 @@ $
 $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
+
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
-        new file:   apple.py
+
+        new file:   banana.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        apple.py
 $
 ```
 
@@ -496,13 +518,13 @@ syntax:
 <kbd> git commit -m "message" </kbd>
 
 >our example
-<kbd> git commit -m "adding apple file' </kbd>
+<kbd> git commit -m "adding banana file' </kbd>
 
 ```bash
-$ git commit -m "adding apple file"
-[master 2c4979a] adding apple file
+$ git commit -m 'adding banana file'
+[master 0912666] adding banana file
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 apple.py
+ create mode 100644 banana.py
 $
 ```
 
@@ -515,17 +537,22 @@ On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
-nothing to commit, working tree clean
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        apple.py
+
+nothing added to commit but untracked files present (use "git add" to track)
 $
 ```
 
-## Step B4:  :stop:  Oops, we don't want that `commit`.  Let's undo it.
+## Step C7:  :stop:  Oops, we don't want that `commit`.  Let's undo it.
 
 syntax:  
-<kbd> git revert HEAD~1 </kbd>
+<kbd> git revert HEAD~ </kbd>
 
 >our example
-<kbd> git reset HEAD~1 </kbd>
+<kbd> git revert HEAD~ </kbd>
 
 ## Step B5:  Check status.  The file name "apple.py" should go back to red text now.  
 
