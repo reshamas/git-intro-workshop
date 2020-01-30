@@ -552,7 +552,7 @@ $
 ## Step C7:  Oops, we don't want that `commit`.  Let's undo it.
 
 syntax:  
-<kbd> git revert HEAD~ </kbd>
+<kbd> git revert HEAD~1 </kbd>
 
 >our example
 <kbd> git revert HEAD~ </kbd>
