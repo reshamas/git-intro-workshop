@@ -546,6 +546,9 @@ nothing added to commit but untracked files present (use "git add" to track)
 $
 ```
 
+:key: To see a list of past commits:  
+<kbd>  git log --oneline </kbd>
+
 ## Step C7:  Oops, we don't want that `commit`.  Let's undo it.
 
 syntax:  
