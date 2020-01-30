@@ -546,7 +546,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 $
 ```
 
-## Step C7:  :stop:  Oops, we don't want that `commit`.  Let's undo it.
+## Step C7:  Oops, we don't want that `commit`.  Let's undo it.
 
 syntax:  
 <kbd> git revert HEAD~ </kbd>
@@ -554,7 +554,7 @@ syntax:
 >our example
 <kbd> git revert HEAD~ </kbd>
 
-## Step B5:  Check status.  The file name "apple.py" should go back to red text now.  
+## Step C8:  Check status.  The file name "apple.py" should go back to red text now.  
 
 ```bash
 $ git status
