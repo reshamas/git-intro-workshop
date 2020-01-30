@@ -360,7 +360,7 @@ $
 **Note:**  to `push` a "commit" is to "finalize the change":  
 - changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
 
-## Step 17:  look at files on working branch (on GitHub)
+## Step 17:  look at files on GitHub (default branch=`master`)
 **Note:**  we are on GitHub in browser
 - go to repo on GitHub
 - you will want to refresh the browser to view the updates
