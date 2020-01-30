@@ -459,9 +459,74 @@ $
 
 ---
 
-# Section C: Let's practice "undo" of an "git commit"
+# Section C: Let's undo changes to a file 
 
 ## Step C1:  Let's create a file
+Option 1:  use RStudio editor to create a new file.  
+Option 2:  use command line to create a new file.  
+
+In this step, we will add a couple of lines in .gitignore file:  
+```bash
+echo "# data folder" >> .gitignore
+echo "/data/" >> .gitignore
+```
+
+Open up the file using RStudio editor and check at the bottom that they have been added.  
+
+
+## Step C2:  Check status
+<kbd> git status </kbd>
+
+```bash
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 11 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        apple.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$
+```
+
+## Step C3:  We want to undo any changes added to the file
+<kbd> git checkout .gitignore </kbd>
+
+## Step C4:  Check status
+<kbd> git status </kbd>
+
+```bash
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 11 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        apple.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+$
+```
+
+Notice:  the file has gone back to original state with the command `checkout`
+
+
+---
+
+# Section D: Let's practice "undo" of an "git commit"
+
+## Step D1:  Let's create a file
 Option 1:  use RStudio editor to create a new file.  
 Option 2:  use command line to create a new file.  
 ```bash
@@ -472,7 +537,7 @@ Confirm the file has been created:
 syntax:  
 <kbd> ls </kbd>
 
-## Step C2:  Check status
+## Step D2:  Check status
 <kbd> git status </kbd>
 
 ```bash
@@ -491,10 +556,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 $
 ```
 
-## Step C3:  Let's add the file
+## Step D3:  Let's add the file
 <kbd> git add banana.py </kbd>
 
-## Step C4:  Check status
+## Step D4:  Check status
 <kbd> git status </kbd>
 
 ```bash
@@ -513,7 +578,7 @@ Untracked files:
 $
 ```
 
-## Step C5:  Commit the file
+## Step D5:  Commit the file
 syntax:  
 <kbd> git commit -m "message" </kbd>
 
@@ -528,7 +593,7 @@ $ git commit -m 'adding banana file'
 $
 ```
 
-## Step C6:  Check status
+## Step D6:  Check status
 <kbd> git status </kbd>
 
 ```bash
@@ -549,7 +614,7 @@ $
 :key: To see a list of past commits:  
 <kbd>  git log --oneline </kbd>
 
-## Step C7:  Oops, we don't want that `commit`.  Let's undo it.
+## Step D7:  Oops, we don't want that `commit`.  Let's undo it.
 
 syntax:  
 <kbd> git revert HEAD~1 </kbd>
@@ -557,7 +622,9 @@ syntax:
 >our example
 <kbd> git revert HEAD~ </kbd>
 
-## Step C8:  Check status.  The file name "apple.py" should go back to red text now.  
+Note:  when the nano terminal opens up, we want to save it and exit.  However, that functionality may not work normally at RStudio terminal as it does at regular terminal.
+
+## Step D8:  Check status.  The file name "apple.py" should go back to red text now.  
 
 ```bash
 $ git status
@@ -569,6 +636,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 $
 ```
+
 
 
 ---
