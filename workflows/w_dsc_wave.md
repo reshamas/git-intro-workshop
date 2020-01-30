@@ -369,21 +369,21 @@ $
 ## Step 18:  submit pull request (on GitHub)
 My url is:  https://github.com/reshamas/proj-test
 
-Click on "New pull request"  
+Steps:  
+- Click on "New pull request"  
+- Select green button "Create pull request"  
+- Select green button:  "Create pull request"  
+
+
+:clap: **Note:** You just submitted a pull request (PR) the organizational repo.  
+
+
+**Note**:  If you are working with different branches, you will see:  
 Select green button "Compare and pull request"  
 <kbd>
 <img src="../images/pull_request_button.png" align="left" height="40" width="180" >   <br> <br>
 </kbd>
 
-Select green button "Create pull request"  
-<kbd>
-<img src="../images/pull_request_button.png" align="left" height="40" width="180" >   <br> <br>
-</kbd>
-
-Select green button:  "Creaet pull request"  
-
-
-**Note:** You just submitted a pull request (PR) the organizational repo.  
 
 ---
 
