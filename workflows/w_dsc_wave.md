@@ -362,11 +362,11 @@ $
 
 ## Step 17:  look at files on working branch (on GitHub)
 **Note:**  we are on GitHub in browser
-- go to repo
-- may want to toggle "Branch"
+- go to repo on GitHub
+- you will want to refresh the browser to view the updates
+- notice that it shows: `Branch: master`  
 	
 ## Step 18:  submit pull request (on GitHub)
-Go to GitHub and refresh your browser.  
 My url is:  https://github.com/reshamas/gitclass  
 
 Select green button "Compare and pull request"  
@@ -379,6 +379,7 @@ Select green button "Compare and pull request"
 	<img src="../images/dsc_pr.png" width="99%" height="99%" />
 </kbd>
 
+**Note:** You just submitted a pull request (PR) the organizational repo.  
 
 ---
 
