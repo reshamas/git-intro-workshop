@@ -6,7 +6,7 @@
 |----------------|--------------------|------------------|
 | `git checkout <file>`  |            | Undo changes to a file  |
 | `git reset HEAD <file>`  |          | Undo a `git add <file>` |
-| `git revert HEAD~1` |                | Revert last commit |
+| `git revert HEAD~` |                | Revert last commit |
 |                |                    |                |
 | `git checkout` | Commit-level	      | Switch between branches or inspect old snapshots |
 | `git checkout` | File-level	        | Discard changes in the working directory |
@@ -15,7 +15,8 @@
 | `git revert`	  | File-level	        | (N/A) |
 |                |                    |                |
 | `git reset`  *  | Commit-level       | Discard commits in a private branch or throw away uncommited changes  |  
-* use `git revert` over `git reset`; it is better practice
+* use `git revert` over `git reset`; it is better practice  
+* `git revert HEAD~1` goes back two commits  
 
 ---
 ## Log of Commits
