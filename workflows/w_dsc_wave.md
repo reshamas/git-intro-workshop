@@ -128,6 +128,12 @@ $
 List contents of the current directory.  
 <kbd> ls </kbd>
 
+>my example
+```bash
+$ ls
+proj-test
+$
+```
 Change directory into the repo directory we just cloned.  
 <kbd> cd <repo_name> </kbd>
 >my example
@@ -140,6 +146,7 @@ cd proj-test
 **A:  **Remotes** are copies of a repo on another computer **(or on a service like GitHub)****
 
 <kbd> git remote -v </kbd>
+
 >my example
 ```bash
 $ git remote -v
@@ -160,7 +167,7 @@ git remote add upstream git@github.com:DSC-WAV/proj-test.git
 git remote add upstream git@github.com:DSC-WAV/proj-test.git
 ```
 
-Let's see if the "remote" has been added:  
+Let's confirm that the "remote" has been added:  
 <kbd>
 git remote -v
 </kbd>
@@ -187,9 +194,9 @@ upstream        git@github.com:DSC-WAV/proj-test.git (push)
 * `upstream` [organization repo] 
 
 **Note 1:**  
-* notice you have `fetch` (or `pull`) and `push` access  
+* notice each remote name appears twice to break down different access:  `fetch` (or `pull`) and `push` access  
 
-**Note 2:**
+**(side note, if needed):**
 * to remove a remote:  <kbd> git remote rm <remote_name> </kbd>
 
 ## Step 9:  Update a repo (or "syncing a repo") [done regularly]
