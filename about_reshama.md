@@ -6,7 +6,5 @@ Twitter:  [@reshamas](https://twitter.com/reshamas)
 
 #### About Me
 * Data Scientist (Statistician, MBA)
-* Organizer of WiMLDS meetup group
-     - [NYC Women in Machine Learning & Data Science](http://www.meetup.com/NYC-Women-in-Machine-Learning-Data-Science/)
-     - http://wimlds.org/
+* Organizer of URGs and Allies in Data Science (https://twitter.com/urgsADS)
 * Organizer of [NYC PyLadies meetup group](https://www.meetup.com/NYC-PyLadies/)
