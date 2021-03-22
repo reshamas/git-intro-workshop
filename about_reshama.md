@@ -6,5 +6,5 @@ Twitter:  [@reshamas](https://twitter.com/reshamas)
 
 #### About Me
 * Data Scientist (Statistician, MBA)
-* Organizer of URGs and Allies in Data Science (https://twitter.com/urgsADS)
+* Founder / Organizer of [Data Umbrella](https://www.meetup.com/data-umbrella/)
 * Organizer of [NYC PyLadies meetup group](https://www.meetup.com/NYC-PyLadies/)
