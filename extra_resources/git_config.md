@@ -44,11 +44,11 @@ you try:
         smudge = git media smudge %f
 [user]
         name = reshamas
-        email = rs2715@gmail.com
+        email = rs123456@gmail.com
         password = 123456789
 [reshama]
         name = reshama
-        email = rs2715@stern.nyu.edu
+        email = rs123456@stern.nyu.edu
 [push]
         default = simple
 [core]
