@@ -1,5 +1,7 @@
 # Git Workshops Given by Reshama Shaikh
 
+### Git Content: https://github.com/reshamas/git-intro-workshop
+
 | Number | Date          | Organization                          | Venue                                                                                                                |
 |--------|---------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | 1      | Nov 2016      | Learn Python NYC meetup               | 15Five                                                                                                               |
