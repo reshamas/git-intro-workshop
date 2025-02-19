@@ -53,7 +53,7 @@ git checkout practice
 
 
  * **Back to main branch**  
-    `$ git checkout master`
+    `$ git checkout main`
  * **Merge branches** (will merge specified <branchname> into current branch)  
     `$ git merge <branchname>`
 
@@ -66,16 +66,16 @@ Example:
 ---
 ## Copying from Branches
 
-#### Copy file/folder from one branch to current branch (`master`)
+#### Copy file/folder from one branch to current branch (`main`)
 
 Run this from the branch where you want the file to end up:  
-on:  `master` branch
+on:  `main` branch
 ```
 git checkout branch_wip myfile.txt
 ```
 
-#### Copy directory from one branch to current branch (`master`)
-on:  `master` branch
+#### Copy directory from one branch to current branch (`main`)
+on:  `main` branch
 ```
 git checkout branch_wip myfolder/** 
 ```
@@ -83,7 +83,7 @@ git checkout branch_wip myfolder/**
 ---
 
 ## Aside: Working Practice
-#### Launch notebook from working branch (leave master branch intact)
+#### Launch notebook from working branch (leave main branch intact)
 ```bash
 ~/git_work/data-science-from-scratch  practice ✔                                498d  
 ▶ jupyter notebook
