@@ -38,13 +38,13 @@ git log -2
 ```
 reshama$ git log -2
 commit a3334f177bed83528f5ab3883d87f1336f599f49
-Author: reshama <rs2715@gmail.com>
+Author: reshama <rsxxxx@gmail.com>
 Date:   Tue May 24 11:04:52 2016 -0400
 
     adding test file 4
 
 commit 12dc41f2620118977c17ad21dfc4b504191e170e
-Author: reshama <rs2715@gmail.com>
+Author: reshama <rsxxxx@gmail.com>
 Date:   Tue May 24 11:04:06 2016 -0400
 
     adding test3 file
